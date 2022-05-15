@@ -1,9 +1,1 @@
 /* Here is your custom css styles. */
-@font-face{
-    font-family: 'zt';
-    src: url('/source/font/zt.ttf');
-}
-
-body{
-    font-family: 'zt';
-}
