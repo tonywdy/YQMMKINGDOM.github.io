@@ -6,7 +6,7 @@
   <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kwblog.netlify.app/"/>
-  <updated>2022-05-15T07:09:27.423Z</updated>
+  <updated>2022-05-15T10:04:46.230Z</updated>
   <id>https://kwblog.netlify.app/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://kwblog.netlify.app/posts/16107.html"/>
-    <id>https://kwblog.netlify.app/posts/16107.html</id>
-    <published>2022-05-14T00:04:16.507Z</published>
-    <updated>2022-05-15T07:09:27.423Z</updated>
+    <title>基于Hexo的matery主题搭建博客</title>
+    <link href="https://kwblog.netlify.app/posts/20077.html"/>
+    <id>https://kwblog.netlify.app/posts/20077.html</id>
+    <published>2022-05-15T08:44:00.000Z</published>
+    <updated>2022-05-15T10:04:46.230Z</updated>
     
     
       
@@ -34,6 +34,16 @@
     
     
     
+    <category term="工具" scheme="https://kwblog.netlify.app/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
+    
+    <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
+    
+    <category term="github部署" scheme="https://kwblog.netlify.app/tags/github%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="matery主题的运用和美化" scheme="https://kwblog.netlify.app/tags/matery%E4%B8%BB%E9%A2%98%E7%9A%84%E8%BF%90%E7%94%A8%E5%92%8C%E7%BE%8E%E5%8C%96/"/>
     
   </entry>
   
