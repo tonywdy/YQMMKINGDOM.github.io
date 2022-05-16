@@ -85,3 +85,13 @@ i:hover {
 .space {
     color: #00c4b6;
 }
+
+@font-face{
+    font-family: 'myFont';
+    src: url('../font/zt.ttf');
+}
+
+body{
+    font-family: 'myFont';
+}
+
