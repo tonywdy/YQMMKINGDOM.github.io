@@ -6,7 +6,7 @@
   <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kwblog.netlify.app/"/>
-  <updated>2022-05-16T07:58:54.067Z</updated>
+  <updated>2022-05-16T10:15:50.187Z</updated>
   <id>https://kwblog.netlify.app/</id>
   
   <author>
@@ -15,6 +15,89 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PicGo+GitHub 图床搭建</title>
+    <link href="https://kwblog.netlify.app/posts/7a46f93c.html"/>
+    <id>https://kwblog.netlify.app/posts/7a46f93c.html</id>
+    <published>2022-05-16T10:15:04.000Z</published>
+    <updated>2022-05-16T10:15:50.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://kwblog.netlify.app/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="PicGo" scheme="https://kwblog.netlify.app/tags/PicGo/"/>
+    
+    <category term="GitHub图床" scheme="https://kwblog.netlify.app/tags/GitHub%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文字背景粒子特效</title>
+    <link href="https://kwblog.netlify.app/posts/4b3510a4.html"/>
+    <id>https://kwblog.netlify.app/posts/4b3510a4.html</id>
+    <published>2022-05-16T10:14:40.000Z</published>
+    <updated>2022-05-16T10:14:55.034Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端篇" scheme="https://kwblog.netlify.app/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/"/>
+    
+    
+    <category term="jQuery+CSS3" scheme="https://kwblog.netlify.app/tags/jQuery-CSS3/"/>
+    
+    <category term="粒子特效" scheme="https://kwblog.netlify.app/tags/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客更新日志</title>
+    <link href="https://kwblog.netlify.app/posts/51356.html"/>
+    <id>https://kwblog.netlify.app/posts/51356.html</id>
+    <published>2022-05-16T10:05:03.000Z</published>
+    <updated>2022-05-16T10:11:46.434Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件安装与配置" scheme="https://kwblog.netlify.app/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Hexo" scheme="https://kwblog.netlify.app/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://kwblog.netlify.app/tags/Github/"/>
+    
+    <category term="博客" scheme="https://kwblog.netlify.app/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>在hexo里用思维导图</title>
