@@ -319,6 +319,15 @@
         </a>
       </li>
       
+      <li>
+        <a href="/box">
+          
+          <i class="fas fa-map-marker" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>导航</span>
+        </a>
+      </li>
+      
     </ul>
     
   </li>
@@ -462,6 +471,16 @@
 				   <i class="fa fa fa-layer-group" style="position: absolute;left:50px" ></i>
 			      
 		          <span>站点统计</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/box " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-map-marker" style="position: absolute;left:50px" ></i>
+			      
+		          <span>导航</span>
                   </a>
                 </li>
               
@@ -771,7 +790,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"md教程","value":2},{"name":"博客篇","value":1},{"name":"前端篇","value":1},{"name":"工具","value":1},{"name":"教程","value":1},{"name":"软件安装与配置","value":1}],
+                data: [{"name":"博客篇","value":1},{"name":"md教程","value":2},{"name":"教程","value":1},{"name":"软件安装与配置","value":1},{"name":"前端篇","value":1},{"name":"工具","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -795,7 +814,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["hexo","blog","Markdown","PicGo","GitHub图床","jQuery+CSS3","粒子特效","github部署","matery主题的运用和美化","教程"]
+                data: ["hexo","blog","PicGo","GitHub图床","Markdown","代码压缩","npm","Hexo","Github","博客"]
             }
         ],
         yAxis: [
@@ -978,12 +997,6 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/Markdown/">
-                <span class="chip center-align waves-effect waves-light chip-default">Markdown</span>
-            </a>
-            
-            
-            
             <a href="/tags/PicGo/">
                 <span class="chip center-align waves-effect waves-light chip-default">PicGo</span>
             </a>
@@ -996,14 +1009,8 @@
             
             
             
-            <a href="/tags/jQuery-CSS3/">
-                <span class="chip center-align waves-effect waves-light chip-default">jQuery+CSS3</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/">
-                <span class="chip center-align waves-effect waves-light chip-default">粒子特效</span>
+            <a href="/tags/Markdown/">
+                <span class="chip center-align waves-effect waves-light chip-default">Markdown</span>
             </a>
             
             
@@ -1020,30 +1027,6 @@
             
             
             
-            <a href="/tags/github%E9%83%A8%E7%BD%B2/">
-                <span class="chip center-align waves-effect waves-light chip-default">github部署</span>
-            </a>
-            
-            
-            
-            <a href="/tags/matery%E4%B8%BB%E9%A2%98%E7%9A%84%E8%BF%90%E7%94%A8%E5%92%8C%E7%BE%8E%E5%8C%96/">
-                <span class="chip center-align waves-effect waves-light chip-default">matery主题的运用和美化</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E6%95%99%E7%A8%8B/">
-                <span class="chip center-align waves-effect waves-light chip-default">教程</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/">
-                <span class="chip center-align waves-effect waves-light chip-default">思维导图</span>
-            </a>
-            
-            
-            
             <a href="/tags/%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9/">
                 <span class="chip center-align waves-effect waves-light chip-default">代码压缩</span>
             </a>
@@ -1052,12 +1035,6 @@
             
             <a href="/tags/npm/">
                 <span class="chip center-align waves-effect waves-light chip-default">npm</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">
-                <span class="chip center-align waves-effect waves-light chip-default">Markdown语法教程</span>
             </a>
             
             
@@ -1076,6 +1053,48 @@
             
             <a href="/tags/%E5%8D%9A%E5%AE%A2/">
                 <span class="chip center-align waves-effect waves-light chip-default">博客</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%95%99%E7%A8%8B/">
+                <span class="chip center-align waves-effect waves-light chip-default">教程</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/">
+                <span class="chip center-align waves-effect waves-light chip-default">思维导图</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">
+                <span class="chip center-align waves-effect waves-light chip-default">Markdown语法教程</span>
+            </a>
+            
+            
+            
+            <a href="/tags/jQuery-CSS3/">
+                <span class="chip center-align waves-effect waves-light chip-default">jQuery+CSS3</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/">
+                <span class="chip center-align waves-effect waves-light chip-default">粒子特效</span>
+            </a>
+            
+            
+            
+            <a href="/tags/github%E9%83%A8%E7%BD%B2/">
+                <span class="chip center-align waves-effect waves-light chip-default">github部署</span>
+            </a>
+            
+            
+            
+            <a href="/tags/matery%E4%B8%BB%E9%A2%98%E7%9A%84%E8%BF%90%E7%94%A8%E5%92%8C%E7%BE%8E%E5%8C%96/">
+                <span class="chip center-align waves-effect waves-light chip-default">matery主题的运用和美化</span>
             </a>
             
             
