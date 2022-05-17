@@ -6,7 +6,7 @@
   <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kwblog.netlify.app/"/>
-  <updated>2022-05-16T10:15:50.187Z</updated>
+  <updated>2022-05-17T01:34:47.418Z</updated>
   <id>https://kwblog.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用 Gulp 来压缩你的 Hexo 博客</title>
+    <link href="https://kwblog.netlify.app/posts/5560.html"/>
+    <id>https://kwblog.netlify.app/posts/5560.html</id>
+    <published>2022-05-17T01:44:00.000Z</published>
+    <updated>2022-05-17T01:34:47.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://kwblog.netlify.app/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
+    
+    <category term="代码压缩" scheme="https://kwblog.netlify.app/tags/%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9/"/>
+    
+    <category term="npm" scheme="https://kwblog.netlify.app/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>PicGo+GitHub 图床搭建</title>
@@ -75,7 +106,7 @@
     <link href="https://kwblog.netlify.app/posts/51356.html"/>
     <id>https://kwblog.netlify.app/posts/51356.html</id>
     <published>2022-05-16T10:05:03.000Z</published>
-    <updated>2022-05-16T10:11:46.434Z</updated>
+    <updated>2022-05-17T00:26:56.848Z</updated>
     
     
       
