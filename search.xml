@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>多种方法在Markdown加入上划线、中划线、下划线</title>
+      <link href="/posts/38332.html"/>
+      <url>/posts/38332.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="上划线和下划线不是Markdown自身语法，因此需要一点摸索，特将结果记录于此"><a href="#上划线和下划线不是Markdown自身语法，因此需要一点摸索，特将结果记录于此" class="headerlink" title="上划线和下划线不是Markdown自身语法，因此需要一点摸索，特将结果记录于此"></a>上划线和下划线不是Markdown自身语法，因此需要一点摸索，特将结果记录于此</h3><h1 id="1-中划线"><a href="#1-中划线" class="headerlink" title="1.中划线"></a>1.中划线</h1><h2 id="中划线是markdown自身语法，实现起来很简单："><a href="#中划线是markdown自身语法，实现起来很简单：" class="headerlink" title="中划线是markdown自身语法，实现起来很简单："></a>中划线是markdown自身语法，实现起来很简单：</h2><pre class=" language-bash"><code class="language-bash">~~中划线~~</code></pre><h4 id="实现的效果如下："><a href="#实现的效果如下：" class="headerlink" title="实现的效果如下："></a>实现的效果如下：</h4><p><del>中划线</del></p><h1 id="2-下划线"><a href="#2-下划线" class="headerlink" title="2.下划线"></a>2.下划线</h1><h2 id="2-1借助Latex公式"><a href="#2-1借助Latex公式" class="headerlink" title="2.1借助Latex公式"></a>2.1借助Latex公式</h2><pre class=" language-bash"><code class="language-bash">$\underline<span class="token punctuation">{</span>\text<span class="token punctuation">{</span>下划线<span class="token punctuation">}</span><span class="token punctuation">}</span>$</code></pre><h4 id="实现的效果如下：-1"><a href="#实现的效果如下：-1" class="headerlink" title="实现的效果如下："></a>实现的效果如下：</h4><p>$\underline{\text{下划线}}$</p><h2 id="2-2行内html（我比较推荐）"><a href="#2-2行内html（我比较推荐）" class="headerlink" title="2.2行内html（我比较推荐）"></a>2.2行内html（我比较推荐）</h2><pre class=" language-bash"><code class="language-bash"><span class="token operator">&lt;</span>u<span class="token operator">></span>下划线<span class="token operator">&lt;</span>/u<span class="token operator">></span></code></pre><h4 id="实现的效果如下：-2"><a href="#实现的效果如下：-2" class="headerlink" title="实现的效果如下："></a>实现的效果如下：</h4><p><u>下划线</u></p><h1 id="3-上划线"><a href="#3-上划线" class="headerlink" title="3.上划线"></a>3.上划线</h1><h2 id="3-1借助Latex公式"><a href="#3-1借助Latex公式" class="headerlink" title="3.1借助Latex公式"></a>3.1借助Latex公式</h2><pre class=" language-bash"><code class="language-bash">$\overline<span class="token punctuation">{</span>\text<span class="token punctuation">{</span>上划线<span class="token punctuation">}</span><span class="token punctuation">}</span>$</code></pre><h4 id="实现的效果如下：-3"><a href="#实现的效果如下：-3" class="headerlink" title="实现的效果如下："></a>实现的效果如下：</h4><p>$\overline{\text{上划线}}$</p><h2 id="3-2全局Html语法"><a href="#3-2全局Html语法" class="headerlink" title="3.2全局Html语法"></a>3.2全局Html语法</h2><h3 id="在markdown中效果不太好，因为定义也会被显示，在这里做个记录。"><a href="#在markdown中效果不太好，因为定义也会被显示，在这里做个记录。" class="headerlink" title="在markdown中效果不太好，因为定义也会被显示，在这里做个记录。"></a>在markdown中效果不太好，因为定义也会被显示，在这里做个记录。</h3><pre class=" language-bash"><code class="language-bash"><span class="token operator">&lt;</span>head<span class="token operator">></span><span class="token operator">&lt;</span>style type<span class="token operator">=</span><span class="token string">"text/css"</span><span class="token operator">></span>h1 <span class="token punctuation">{</span>text-decoration: overline<span class="token punctuation">}</span>h2 <span class="token punctuation">{</span>text-decoration: line-through<span class="token punctuation">}</span>h3 <span class="token punctuation">{</span>text-decoration: underline<span class="token punctuation">}</span>h4 <span class="token punctuation">{</span>text-decoration:blink<span class="token punctuation">}</span><span class="token operator">&lt;</span>/style<span class="token operator">></span><span class="token operator">&lt;</span>/head<span class="token operator">></span> <span class="token operator">&lt;</span>body<span class="token operator">></span><span class="token operator">&lt;</span>h1<span class="token operator">></span>这是标题 1<span class="token operator">&lt;</span>/h1<span class="token operator">></span><span class="token operator">&lt;</span>h2<span class="token operator">></span>这是标题 2<span class="token operator">&lt;</span>/h2<span class="token operator">></span><span class="token operator">&lt;</span>h3<span class="token operator">></span>这是标题 3<span class="token operator">&lt;</span>/h3<span class="token operator">></span><span class="token operator">&lt;</span>h4<span class="token operator">></span>这是标题 4<span class="token operator">&lt;</span>/h4<span class="token operator">></span><span class="token operator">&lt;</span>/body<span class="token operator">></span></code></pre><h4 id="实现的效果如下：-4"><a href="#实现的效果如下：-4" class="headerlink" title="实现的效果如下："></a>实现的效果如下：</h4><p><img src="https://i.postimg.cc/yYdvY6m2/20200401121345760.png" alt="截图"></p><h1 id="感谢观看，可以的话请我喝杯咖啡吧"><a href="#感谢观看，可以的话请我喝杯咖啡吧" class="headerlink" title="感谢观看，可以的话请我喝杯咖啡吧~~~"></a>感谢观看，可以的话请我喝杯咖啡吧~~~</h1><p><img src="https://img2.baidu.com/it/u=2361528755,3827985078&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=500&amp;h=500" alt="图片来自网络"></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> md教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown语法教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>利用 Gulp 来压缩你的 Hexo 博客</title>
       <link href="/posts/5560.html"/>
       <url>/posts/5560.html</url>
