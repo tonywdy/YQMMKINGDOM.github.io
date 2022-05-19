@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>m1macpro跑分</title>
+      <link href="/posts/24847.html"/>
+      <url>/posts/24847.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="准备软件"><a href="#准备软件" class="headerlink" title="准备软件"></a>准备软件</h1><h3 id="本次我们使用的测试工具是Geekbench和Performance"><a href="#本次我们使用的测试工具是Geekbench和Performance" class="headerlink" title="本次我们使用的测试工具是Geekbench和Performance"></a>本次我们使用的测试工具是Geekbench和Performance</h3><h3 id="查看我的MAC的配置"><a href="#查看我的MAC的配置" class="headerlink" title="查看我的MAC的配置"></a>查看我的MAC的配置</h3><p><img src="https://i.postimg.cc/TPDZ7DwZ/2022-05-19-14-56-26.png" alt="电脑配置"></p><h1 id="正式开始"><a href="#正式开始" class="headerlink" title="正式开始"></a>正式开始</h1><h2 id="1-Geekbench跑分"><a href="#1-Geekbench跑分" class="headerlink" title="1.Geekbench跑分"></a>1.Geekbench跑分</h2><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 跑分 </tag>
+            
+            <tag> M1MAC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>markdown书写文章用插件</title>
       <link href="/posts/64435.html"/>
       <url>/posts/64435.html</url>
@@ -149,9 +176,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> blog </tag>
+            
+            <tag> hexo </tag>
             
             <tag> 代码压缩 </tag>
             
@@ -228,9 +255,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 思维导图 </tag>
             
@@ -257,9 +284,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> blog </tag>
+            
+            <tag> hexo </tag>
             
             <tag> github部署 </tag>
             
