@@ -6,7 +6,7 @@
   <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kwblog.netlify.app/"/>
-  <updated>2022-05-18T23:53:13.245Z</updated>
+  <updated>2022-05-19T00:00:10.638Z</updated>
   <id>https://kwblog.netlify.app/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Fontawesome 图标样例</title>
+    <link href="https://kwblog.netlify.app/posts/20692.html"/>
+    <id>https://kwblog.netlify.app/posts/20692.html</id>
+    <published>2022-05-18T23:55:53.000Z</published>
+    <updated>2022-05-19T00:00:10.638Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="https://kwblog.netlify.app/categories/HEXO/"/>
+    
+    
+    <category term="Fontawesome 图标" scheme="https://kwblog.netlify.app/tags/Fontawesome-%E5%9B%BE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于蚊子</title>
     <link href="https://kwblog.netlify.app/posts/50391.html"/>
     <id>https://kwblog.netlify.app/posts/50391.html</id>
     <published>2022-05-18T22:48:49.000Z</published>
-    <updated>2022-05-18T23:53:13.245Z</updated>
+    <updated>2022-05-18T23:53:30.948Z</updated>
     
     
       
