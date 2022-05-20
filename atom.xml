@@ -141,9 +141,9 @@
     <category term="教程" scheme="https://kwblog.netlify.app/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
-    
     <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
     
     <category term="代码压缩" scheme="https://kwblog.netlify.app/tags/%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9/"/>
     
@@ -224,9 +224,9 @@
     
     
     
-    <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
-    
     <category term="教程" scheme="https://kwblog.netlify.app/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
     
     <category term="思维导图" scheme="https://kwblog.netlify.app/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
     
@@ -253,9 +253,9 @@
     <category term="工具" scheme="https://kwblog.netlify.app/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
-    
     <category term="hexo" scheme="https://kwblog.netlify.app/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
     
     <category term="github部署" scheme="https://kwblog.netlify.app/tags/github%E9%83%A8%E7%BD%B2/"/>
     
