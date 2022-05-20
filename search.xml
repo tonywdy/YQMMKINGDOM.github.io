@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>Hexo-Theme-Sakura(转载)</title>
+      <link href="/posts/22338.html"/>
+      <url>/posts/22338.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>hexo-theme-sakura主题 <a href="https://github.com/honjun/hexo-theme-sakura/blob/master/README.md">English document</a></p><p>基于WordPress主题<a href="https://github.com/mashirozx/Sakura/">Sakura</a>修改成Hexo的主题。</p><p><a href="https://sakura.hojun.cn/">demo预览</a></p><p>正在开发中……</p><p><img src="https://wx3.sinaimg.cn/large/006bYVyvly1g069tuf42oj312w0m8ndq.jpg"></p><h2 id="交流群"><a href="#交流群" class="headerlink" title="交流群"></a>交流群</h2><p>若你是使用者，加群QQ: 801511924</p><p>若你是创作者，加群QQ: 194472590</p><h2 id="主题特性"><a href="#主题特性" class="headerlink" title="主题特性"></a>主题特性</h2><ul><li>首页大屏视频</li><li>首页随机封面</li><li>图片懒加载</li><li>valine评论</li><li>fancy-box相册</li><li>pjax支持，音乐不间断</li><li>aplayer音乐播放器</li><li>多级导航菜单（按现在大部分hexo主题来说，这也算是个特性了）</li></ul><h2 id="赞赏作者"><a href="#赞赏作者" class="headerlink" title="赞赏作者"></a>赞赏作者</h2><p>如果喜欢hexo-theme-sakura主题，可以考虑资助一下哦~非常感激！</p><p><a href="https://www.paypal.me/hojuncn">paypal</a> | <a href="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg">Alipay 支付宝</a> | <a href="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanSQ.jpg">WeChat Pay 微信支付</a></p><h2 id="未完善的使用教程"><a href="#未完善的使用教程" class="headerlink" title="未完善的使用教程"></a>未完善的使用教程</h2><p>那啥？老实说我目前也不是很有条理233333333~</p><h2 id="1、主题下载安装"><a href="#1、主题下载安装" class="headerlink" title="1、主题下载安装"></a>1、主题下载安装</h2><p><a href="https://github.com/honjun/hexo-theme-sakura">hexo-theme-sakura</a>建议下载压缩包格式，因为除了主题内容还有些source的配置对新手来说比较太麻烦，直接下载解压就省去这些麻烦咯。</p><p>下载好后解压到博客根目录（不是主题目录哦，重复的选择替换）。接着在命令行（cmd、bash）运行<code>npm i</code>安装依赖。</p><h2 id="2、主题配置"><a href="#2、主题配置" class="headerlink" title="2、主题配置"></a>2、主题配置</h2><h3 id="博客根目录下的-config配置"><a href="#博客根目录下的-config配置" class="headerlink" title="博客根目录下的_config配置"></a>博客根目录下的_config配置</h3><p>站点</p><pre class=" language-yml"><code class="language-yml"># Sitetitle: 你的站点名subtitle:description: 站点简介keywords:author: 作者名language: zh-cntimezone:</code></pre><p>部署</p><pre class=" language-yml"><code class="language-yml">deploy:  type: git  repo:     github: 你的github仓库地址    # coding: 你的coding仓库地址  branch: master</code></pre><p>备份 （使用hexo b发布备份到远程仓库）</p><pre class=" language-yml"><code class="language-yml">backup:  type: git  message: backup my blog of https://honjun.github.io/  repository:    # 你的github仓库地址,备份分支名  （建议新建backup分支）    github: https://github.com/honjun/honjun.github.io.git,backup    # coding: https://git.coding.net/hojun/hojun.git,backup</code></pre><h3 id="主题目录下的-config配置"><a href="#主题目录下的-config配置" class="headerlink" title="主题目录下的_config配置"></a>主题目录下的_config配置</h3><p>其中标明【改】的是需要修改部门，标明【选】是可改可不改，标明【非】是不用改的部分</p><pre class=" language-yml"><code class="language-yml"># site name# 站点名 【改】prefixName: さくら荘そのsiteName: hojun# favicon and site master avatar# 站点的favicon和头像 输入图片路径（下面的配置是都是cdn的相对路径，没有cdn请填写完整路径，建议使用jsdeliver搭建一个cdn啦，先去下载我的cdn替换下图片就行了，简单方便~）【改】favicon: /images/favicon.icoavatar: /img/custom/avatar.jpg# 站点url 【改】url: https://sakura.hojun.cn# 站点介绍（或者说是个人签名）【改】description: Live your life with passion! With some drive!# 站点cdn，没有就为空 【改】  若是cdn为空，一些图片地址就要填完整地址了，比如之前avatar就要填https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpgcdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6# 开启pjax 【选】pjax: 1# 站点首页的公告信息 【改】notice: hexo-Sakura主题已经开源，目前正在开发中...# 懒加载的加载中图片 【选】lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg# 站点菜单配置 【选】menus:  首页: { path: /, fa: fa-fort-awesome faa-shake }  归档: { path: /archives, fa: fa-archive faa-shake, submenus: {     技术: {path: /categories/技术/, fa: fa-code },     生活: {path: /categories/生活/, fa: fa-file-text-o },     资源: {path: /categories/资源/, fa: fa-cloud-download },     随想: {path: /categories/随想/, fa: fa-commenting-o },    转载: {path: /categories/转载/, fa: fa-book }  } }  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {     书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },     番组: {path: /bangumi/, fa: fa-film faa-vertical },     歌单: {path: /music/, fa: fa-headphones },    图集: {path: /tags/图集/, fa: fa-photo }  } }  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }  友人帐: { path: /links/, fa: fa-link faa-shake }  赞赏: { path: /donate/, fa: fa-heart faa-pulse }  关于: { path: /, fa: fa-leaf faa-wrench , submenus: {     我？: {path: /about/, fa: fa-meetup},     主题: {path: /theme-sakura/, fa: iconfont icon-sakura },    Lab: {path: /lab/, fa: fa-cogs },  } }  客户端: { path: /client/, fa: fa-android faa-vertical }  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }# Home page sort type: -1: newer first，1: older first. 【非】homePageSortType: -1# Home page article shown number) 【非】homeArticleShown: 10# 背景图片 【选】bgn: 8# startdash面板 url, title, desc img 【改】startdash:   - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}# your site build time or founded date# 你的站点建立日期 【改】siteBuildingTime: 07/17/2018# 社交按钮(social)  url, img PC端配置 【改】social:  github: {url: http://github.com/honjun, img: /img/social/github.png}  sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}  wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}  zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}  email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}# 社交按钮(msocial)  url, img 移动端配置 【改】msocial:  github: {url: http://github.com/honjun, fa: fa-github, color: 333}  weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}# 赞赏二维码（其中wechatSQ是赞赏单页面的赞赏码图片）【改】donate:  alipay: /img/custom/donate/AliPayQR.jpg  wechat: /img/custom/donate/WeChanQR.jpg  wechatSQ: /img/custom/donate/WeChanSQ.jpg# 首页视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下 【改】movies:  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用  name: Unbroken.mp4# 左下角aplayer播放器配置 主要改id和server这两项，修改详见[aplayer文档] 【改】aplayer:   id: 2660651585  server: netease  type: playlist  fixed: true  mini: false  autoplay: false  loop: all  order: random  preload: auto  volume: 0.7  mutex: true# Valine评论配置【改】valine: truev_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHszv_appKey: mgOpfzbkHYqU92CV4IDlAUHQ</code></pre><h2 id="分类页和标签页配置"><a href="#分类页和标签页配置" class="headerlink" title="分类页和标签页配置"></a>分类页和标签页配置</h2><h3 id="分类页"><a href="#分类页" class="headerlink" title="分类页"></a>分类页</h3><p><img src="https://ws3.sinaimg.cn/large/006bYVyvly1g07b0gucy9j31060jih76.jpg"></p><h3 id="标签页"><a href="#标签页" class="headerlink" title="标签页"></a>标签页</h3><p><img src="https://wx2.sinaimg.cn/large/006bYVyvly1g07azb2399j31040jgazs.jpg"></p><p>配置项在\themes\Sakura\languages\zh-cn.yml里。新增一个分类或标签最好加下哦，当然嫌麻烦可以直接使用一张默认图片（可以改主题或者直接把404图片替换下，征求下意见要不要给这个在配置文件中加个开关，可以issue或群里提出来），现在是没设置的话会使用那种倒立小狗404哦。</p><pre class=" language-yml"><code class="language-yml">#category# 按分类名创建技术:    #中文标题    zh: 野生技术协会     # 英文标题    en: Geek – Only for Love    # 封面图片    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/coding.jpg生活:    zh: 生活    en: live    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/writing.jpg#tag# 标签名即是标题悦读:    # 封面图片    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/reading.jpg</code></pre><h2 id="单页面封面配置"><a href="#单页面封面配置" class="headerlink" title="单页面封面配置"></a>单页面封面配置</h2><p><img src="https://ws3.sinaimg.cn/large/006bYVyvly1g07b1pi619j31080jge4u.jpg"><br>如留言板页面页面，位于source下的comment下，打开index.md如下：</p><pre class=" language-md"><code class="language-md">---title: commentdate: 2018-12-20 23:13:48keywords: 留言板description: comments: true# 在这里配置单页面头部图片，自定义替换哦~photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/comment.jpg---</code></pre><h2 id="单页面配置"><a href="#单页面配置" class="headerlink" title="单页面配置"></a>单页面配置</h2><h3 id="番组计划页-（请直接在下载后的文件中改，下面的添加了注释可能会有些影响）"><a href="#番组计划页-（请直接在下载后的文件中改，下面的添加了注释可能会有些影响）" class="headerlink" title="番组计划页 （请直接在下载后的文件中改，下面的添加了注释可能会有些影响）"></a>番组计划页 （请直接在下载后的文件中改，下面的添加了注释可能会有些影响）</h3><p><img src="https://wx2.sinaimg.cn/large/006bYVyvly1g07b2gyx60j31090jjahj.jpg"></p><pre class=" language-yml"><code class="language-yml">---layout: bangumititle: bangumicomments: falsedate: 2019-02-10 21:32:48keywords:description:bangumis:  # 番组图片  - img: https://lain.bgm.tv/pic/cover/l/0e/1e/218971_2y351.jpg  # 番组名    title: 朝花夕誓——于离别之朝束起约定之花  # 追番状态 （追番ing/已追完）    status: 已追完  # 追番进度    progress: 100  # 番剧日文名称    jp: さよならの朝に約束の花をかざろう  # 放送时间    time: 放送时间: 2018-02-24 SUN.  # 番剧介绍    desc:  住在远离尘嚣的土地，一边将每天的事情编织成名为希比欧的布，一边静静生活的伊欧夫人民。在15岁左右外表就停止成长，拥有数百年寿命的他们，被称为“离别的一族”，并被视为活着的传说。没有双亲的伊欧夫少女玛奇亚，过着被伙伴包围的平稳日子，却总感觉“孤身一人”。他们的这种日常，一瞬间就崩溃消失。追求伊欧夫的长寿之血，梅萨蒂军乘坐着名为雷纳特的古代兽发动了进攻。在绝望与混乱之中，伊欧夫的第一美女蕾莉亚被梅萨蒂带走，而玛奇亚暗恋的少年克里姆也失踪了。玛奇亚虽然总算逃脱了，却失去了伙伴和归去之地……。  - img: https://lain.bgm.tv/pic/cover/l/0e/1e/218971_2y351.jpg    title: 朝花夕誓——于离别之朝束起约定之花    status: 已追完    progress: 50    jp: さよならの朝に約束の花をかざろう    time: 放送时间: 2018-02-24 SUN.    desc: 住在远离尘嚣的土地，一边将每天的事情编织成名为希比欧的布，一边静静生活的伊欧夫人民。在15岁左右外表就停止成长，拥有数百年寿命的他们，被称为“离别的一族”，并被视为活着的传说。没有双亲的伊欧夫少女玛奇亚，过着被伙伴包围的平稳日子，却总感觉“孤身一人”。他们的这种日常，一瞬间就崩溃消失。追求伊欧夫的长寿之血，梅萨蒂军乘坐着名为雷纳特的古代兽发动了进攻。在绝望与混乱之中，伊欧夫的第一美女蕾莉亚被梅萨蒂带走，而玛奇亚暗恋的少年克里姆也失踪了。玛奇亚虽然总算逃脱了，却失去了伙伴和归去之地……。---</code></pre><h3 id="友链页-（请直接在下载后的文件中改，下面的添加了注释可能会有些影响）"><a href="#友链页-（请直接在下载后的文件中改，下面的添加了注释可能会有些影响）" class="headerlink" title="友链页 （请直接在下载后的文件中改，下面的添加了注释可能会有些影响）"></a>友链页 （请直接在下载后的文件中改，下面的添加了注释可能会有些影响）</h3><p><img src="https://ws3.sinaimg.cn/large/006bYVyvly1g07b39tleej31080jhjv1.jpg"></p><pre class=" language-yml"><code class="language-yml">---layout: linkstitle: links# 创建日期，可以改下date: 2018-12-19 23:11:06 # 图片上的标题，自定义修改keywords: 友人帐 description: # true/false 开启/关闭评论comments: true # 页面头部图片，自定义修改photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/links.jpg # 友链配置links:   # 类型分组  - group: 个人项目    # 类型简介    desc: 充分说明这家伙是条咸鱼 < (￣︶￣)>    items:    # 友链链接    - url: https://shino.cc/fgvf    # 友链头像      img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg    # 友链站点名      name: Google    # 友链介绍  下面雷同      desc: Google 镜像    - url: https://shino.cc/fgvf      img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg      name: Google      desc: Google 镜像  # 类型分组...  - group: 小伙伴们    desc: 欢迎交换友链 ꉂ(ˊᗜˋ)    items:    - url: https://shino.cc/fgvf      img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg      name: Google      desc: Google 镜像    - url: https://shino.cc/fgvf      img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg      name: Google      desc: Google 镜像---</code></pre><h2 id="写文章配置"><a href="#写文章配置" class="headerlink" title="写文章配置"></a>写文章配置</h2><p>主题集成了个人插件hexo-tag-bili和hexo-tag-fancybox_img。其中hexo-tag-bili用来在文章或单页面中插入B站外链视频，使用语法如下：</p><pre class=" language-md"><code class="language-md">{% bili video_id [page] %}</code></pre><p>详细使用教程详见<a href="https://github.com/honjun/hexo-tag-bili/blob/master/README-zh_cn.md">hexo-tag-bili</a>。</p><p>hexo-tag-fancybox_img用来在文章或单页面中图片，使用语法如下：</p><pre class=" language-md"><code class="language-md">{% fb_img src [caption] %}</code></pre><p>详细使用教程详见<a href="https://github.com/honjun/hexo-tag-fancybox_img/blob/master/README-zh_cn.md">hexo-tag-fancybox_img</a></p><h2 id="还有啥，一时想不起来……"><a href="#还有啥，一时想不起来……" class="headerlink" title="还有啥，一时想不起来……"></a>还有啥，一时想不起来……</h2><p>To be continued…</p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+            <tag> 悦读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小破站av号BV号转换</title>
+      <link href="/posts/22294.html"/>
+      <url>/posts/22294.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"><a href="#啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！" class="headerlink" title="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"></a>啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！</h1><pre class=" language-bath"><code class="language-bath"><!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>BV 号跋扈　～ Who done it!</title></head><body><p>BV号转AV号</p><input type="text" id="av"><button onclick="return av() && false">AV 号转 BV 号</button><input type="text" id="bv"><button onclick="return bv() && false">BV 号转 AV 号</button><p id="result">结果：</p><p>别问我为何这么丑，这玩意叫简洁风！！！</p><p>改写自 <a href="https://www.zhihu.com/question/381784377/answer/1099438784">mcfx 的纸糊回答</a>，并加上一些适当的处理。</p><p>可以的话，下面赏我杯咖啡~~~谢谢！！！</p><script>// 改写自 https://www.zhihu.com/question/381784377/answer/1099438784，并加上一些适当的处理'use strict';const table = [...'fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF'];const s = [11, 10, 3, 8, 4, 6];const xor = 177451812;const add = 8728348608;const av2bv = (av) => {    let num = NaN;    if (Object.prototype.toString.call(av) === '[object Number]') {        num = av;    } else if (Object.prototype.toString.call(av) === '[object String]') {        num = parseInt(av.replace(/[^0-9]/gu, ''));    };    if (isNaN(num) || num <= 0) {        // 网页版直接输出这个结果了        return '¿你在想桃子？';    };    num = (num ^ xor) + add;    let result = [...'BV1  4 1 7  '];    let i = 0;    while (i < 6) {        // 这里改写差点犯了运算符优先级的坑        // 果然 Python 也不是特别熟练        // 说起来 ** 按照传统语法应该写成 Math.pow()，但是我个人更喜欢 ** 一些        result[s[i]] = table[Math.floor(num / 58 ** i) % 58];        i += 1;    };    return result.join('');};const bv2av = (bv) => {    let str = '';    if (bv.length === 12) {        str = bv;    } else if (bv.length === 10) {        str = `BV${bv}`;    // 根据官方 API，BV 号开头的 BV1 其实可以省略    // 不过单独省略个 B 又不行（    } else if (bv.length === 9) {        str = `BV1${bv}`;    } else {        return '¿你在想桃子？';    };    if (!str.match(/[Bb][Vv][fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF]{10}/gu)) {        return '¿你在想桃子？';    };    let result = 0;    let i = 0;    while (i < 6) {        result += table.indexOf(str[s[i]]) * 58 ** i;        i += 1;    };    return `av${result - add ^ xor}`;};const av = () => {    let result = av2bv(document.getElementById('av').value);    if (result !== '¿你在想桃子？') {        document.getElementById('result').innerHTML = `结果：<a href="https://www.bilibili.com/video/${result}">${result}</a>`;    } else {        document.getElementById('result').innerHTML = `结果：${result}`;    };};const bv = () => {    let result = bv2av(document.getElementById('bv').value);    if (result !== '¿你在想桃子？') {        document.getElementById('result').innerHTML = `结果：<a href="https://www.bilibili.com/video/${result}">${result}</a>`;    } else {        document.getElementById('result').innerHTML = `结果：${result}`;    };};document.getElementById('av').addEventListener('keydown', (event) => {    if (event.keyCode === 13) {        av();    };});document.getElementById('bv').addEventListener('keydown', (event) => {    if (event.keyCode === 13) {        bv();    };});</script></body></html></code></pre><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具箱 </tag>
+            
+            <tag> 代码分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机图片API</title>
+      <link href="/posts/38811.html"/>
+      <url>/posts/38811.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="注意：因为目前我的图床服务器还未搭建完成，所以先分享一个小伙伴的API！！！"><a href="#注意：因为目前我的图床服务器还未搭建完成，所以先分享一个小伙伴的API！！！" class="headerlink" title="注意：因为目前我的图床服务器还未搭建完成，所以先分享一个小伙伴的API！！！"></a>注意：因为目前我的图床服务器还未搭建完成，所以先分享一个小伙伴的API！！！</h1><h1 id="API调用方式："><a href="#API调用方式：" class="headerlink" title="API调用方式："></a>API调用方式：</h1><p><a href="https://api.flymc.cc/cover.php">https://api.flymc.cc/cover.php</a></p><h3 id="支持地址栏直接访问，完全无限制使用"><a href="#支持地址栏直接访问，完全无限制使用" class="headerlink" title="支持地址栏直接访问，完全无限制使用"></a>支持地址栏直接访问，完全无限制使用</h3><h1 id="目前本随机图片仅包含动漫图库"><a href="#目前本随机图片仅包含动漫图库" class="headerlink" title="目前本随机图片仅包含动漫图库"></a>目前本随机图片仅包含动漫图库</h1><h1 id="会根据后续需求扩充其它类别的图库，欢迎评论区反馈"><a href="#会根据后续需求扩充其它类别的图库，欢迎评论区反馈" class="headerlink" title="会根据后续需求扩充其它类别的图库，欢迎评论区反馈"></a>会根据后续需求扩充其它类别的图库，欢迎评论区反馈</h1><h1 id="现有的动漫图库正不断扩充中"><a href="#现有的动漫图库正不断扩充中" class="headerlink" title="现有的动漫图库正不断扩充中"></a>现有的动漫图库正不断扩充中</h1><p><img src="https://gitlab.com/KINGWDY/tgbb/-/raw/main/%E6%88%AA%E5%B1%8F2022-05-20_14.38.47.png" alt="原作者的打赏链接"></p><h1 id="所有看到这篇文章的人！！！"><a href="#所有看到这篇文章的人！！！" class="headerlink" title="@所有看到这篇文章的人！！！"></a>@所有看到这篇文章的人！！！</h1><h1 id="搭建图床是很烧钱的！！！有条件就给原作者打赏一下！！！"><a href="#搭建图床是很烧钱的！！！有条件就给原作者打赏一下！！！" class="headerlink" title="搭建图床是很烧钱的！！！有条件就给原作者打赏一下！！！"></a>搭建图床是很烧钱的！！！有条件就给原作者打赏一下！！！</h1><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 转载 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> API图片 </tag>
+            
+            <tag> 转载 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Fontawesome 图标样例</title>
       <link href="/posts/20692.html"/>
       <url>/posts/20692.html</url>
@@ -13,7 +94,7 @@
       
       <categories>
           
-          <category> HEXO </category>
+          <category> 资源 </category>
           
       </categories>
       
@@ -38,7 +119,7 @@
       
       <categories>
           
-          <category> 百科 </category>
+          <category> 随想 </category>
           
       </categories>
       
@@ -67,7 +148,7 @@
       
       <categories>
           
-          <category> md教程 </category>
+          <category> 技术 </category>
           
       </categories>
       
@@ -92,16 +173,10 @@
       
       <categories>
           
-          <category> md教程 </category>
+          <category> 技术 - Markdown语法教程 </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> Markdown语法教程 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -117,7 +192,7 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 技术 </category>
           
       </categories>
       
@@ -148,7 +223,7 @@
       
       <categories>
           
-          <category> 博客篇 </category>
+          <category> 资源 </category>
           
       </categories>
       
@@ -175,7 +250,7 @@
       
       <categories>
           
-          <category> 前端篇 </category>
+          <category> 技术 </category>
           
       </categories>
       
@@ -200,6 +275,12 @@
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="首先需要先安装插件"><a href="#首先需要先安装插件" class="headerlink" title="首先需要先安装插件"></a>首先需要先安装插件</h1><pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> cnpm <span class="token function">install</span> hexo-simple-mindmap //这里默认用淘宝源</code></pre><h3 id="mindmap-是思维导图渲染的标志，画板尺寸有三种规格："><a href="#mindmap-是思维导图渲染的标志，画板尺寸有三种规格：" class="headerlink" title="mindmap 是思维导图渲染的标志，画板尺寸有三种规格："></a>mindmap 是思维导图渲染的标志，画板尺寸有三种规格：</h3><h3 id="1-mindmap-sm-小号尺寸的画板"><a href="#1-mindmap-sm-小号尺寸的画板" class="headerlink" title="1.mindmap-sm 小号尺寸的画板"></a>1.mindmap-sm 小号尺寸的画板</h3><h3 id="2-mindmap-md-中号尺寸的画板"><a href="#2-mindmap-md-中号尺寸的画板" class="headerlink" title="2.mindmap-md 中号尺寸的画板"></a>2.mindmap-md 中号尺寸的画板</h3><h3 id="3-mindmap-lg-大号尺寸的画板"><a href="#3-mindmap-lg-大号尺寸的画板" class="headerlink" title="3.mindmap-lg 大号尺寸的画板"></a>3.mindmap-lg 大号尺寸的画板</h3><h2 id="思维导图的内容和层级关系通过无序列表表示，支持基本的文字和超链接。"><a href="#思维导图的内容和层级关系通过无序列表表示，支持基本的文字和超链接。" class="headerlink" title="思维导图的内容和层级关系通过无序列表表示，支持基本的文字和超链接。"></a>思维导图的内容和层级关系通过无序列表表示，支持基本的文字和超链接。</h2><h3 id="示例代码如下"><a href="#示例代码如下" class="headerlink" title="示例代码如下:"></a>示例代码如下:</h3><pre class=" language-bash"><code class="language-bash"><span class="token punctuation">{</span>% pullquote mindmap mindmap-md %<span class="token punctuation">}</span>- <span class="token punctuation">[</span>在 Hexo 中使用思维导图<span class="token punctuation">]</span><span class="token punctuation">(</span>https://hunterx.xyz/use-mindmap-in-hexo.html<span class="token punctuation">)</span>  - 前言  - 操作指南    - 准备需要的文件    - 为主题添加 CSS/JS 文件  - 使用方法<span class="token punctuation">{</span>% endpullquote %<span class="token punctuation">}</span></code></pre><h3 id="最终效果如下："><a href="#最终效果如下：" class="headerlink" title="最终效果如下："></a>最终效果如下：</h3><blockquote class="pullquote mindmap mindmap-md"><ul><li><a href="https://hunterx.xyz/use-mindmap-in-hexo.html">在 Hexo 中使用思维导图</a><ul><li>前言</li><li>操作指南<ul><li>准备需要的文件</li><li>为主题添加 CSS/JS 文件</li></ul></li><li>使用方法</li></ul></li></ul></blockquote><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -216,7 +297,7 @@
     
     
     <entry>
-      <title>基于Hexo的matery主题搭建博客</title>
+      <title>基于Hexo的matery主题搭建博客（已作废）</title>
       <link href="/posts/20077.html"/>
       <url>/posts/20077.html</url>
       
@@ -225,7 +306,7 @@
       
       <categories>
           
-          <category> 工具 </category>
+          <category> 技术 </category>
           
       </categories>
       
