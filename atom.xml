@@ -214,9 +214,9 @@
     <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="blog" scheme="https://kingwdy.avosapps.us/tags/blog/"/>
-    
     <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://kingwdy.avosapps.us/tags/blog/"/>
     
     <category term="代码压缩" scheme="https://kingwdy.avosapps.us/tags/%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9/"/>
     
@@ -299,9 +299,9 @@
     <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
-    
     <category term="教程" scheme="https://kingwdy.avosapps.us/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
     
     <category term="思维导图" scheme="https://kingwdy.avosapps.us/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
     
@@ -328,9 +328,9 @@
     <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="blog" scheme="https://kingwdy.avosapps.us/tags/blog/"/>
-    
     <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://kingwdy.avosapps.us/tags/blog/"/>
     
     <category term="github部署" scheme="https://kingwdy.avosapps.us/tags/github%E9%83%A8%E7%BD%B2/"/>
     
