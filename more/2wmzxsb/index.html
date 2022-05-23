@@ -1,0 +1,78 @@
+<!-- 
+Share：biilibili 大碗绿豆沙
+Link：https://www.bilibili.com/video/BV1F3411T7KU/
+ -->
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166000335-1"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-166000335-1');
+    </script>
+<meta charset="utf-8">
+<title>二维码识别工具</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<style>
+  .download-btn-cn{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 99999;
+  }
+  .download-btn-cn a{
+    background: none;
+    padding: 13px 22px;
+    font-size: 16px;
+    color: #0B85FF;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid #0B85FF;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .download-btn-cn a:hover{
+    color: #fff;
+    background: #0B85FF;
+  }
+  @media screen and (max-width: 600px){
+    .download-btn-cn{
+       left: 20px;
+     }
+    .download-btn-cn a{
+      font-size: 13px;
+      padding: 9px 15px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="download-btn-cn">
+<a href="#" target="_blank">KW@二维码识别工具</a>
+</div>
+<div class="wrapper">
+<form action="#">
+<input type="file" hidden>
+<img src="#" alt="qr-code">
+<div class="content">
+<i class="fas fa-cloud-upload"></i>
+<p>点击这里上传二维码</p>
+</div>
+</form>
+<div class="details">
+<textarea spellcheck="false" disabled></textarea>
+<div class="buttons">
+<button class="close">Close</button>
+<button class="copy">Copy Text</button>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
