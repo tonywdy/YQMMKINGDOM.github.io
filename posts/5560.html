@@ -189,10 +189,10 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 6.2.0">
+ </script><meta name="generator" content="Hexo 6.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -472,6 +472,13 @@
                         </a>
                       </li>
                     
+                      <li>
+                        <a href="/KWGAME/">
+                          <i class="fa fa fa-gamepad" aria-hidden="true"></i>
+                          游戏
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -534,30 +541,30 @@ var uglify <span class="token operator">=</span> require<span class="token punct
 var htmlmin <span class="token operator">=</span> require<span class="token punctuation">(</span><span class="token string">'gulp-htmlmin'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 var htmlclean <span class="token operator">=</span> require<span class="token punctuation">(</span><span class="token string">'gulp-htmlclean'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-gulp.task<span class="token punctuation">(</span><span class="token string">'minify-css'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+gulp.task<span class="token punctuation">(</span><span class="token string">'minify-css'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
     <span class="token keyword">return</span> gulp.src<span class="token punctuation">(</span><span class="token string">'./public/**/*.css'</span><span class="token punctuation">)</span>
         .pipe<span class="token punctuation">(</span>minifycss<span class="token punctuation">(</span><span class="token punctuation">))</span>
         .pipe<span class="token punctuation">(</span>gulp.dest<span class="token punctuation">(</span><span class="token string">'./public'</span><span class="token punctuation">))</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;);</span>
 
-gulp.task<span class="token punctuation">(</span><span class="token string">'minify-html'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+gulp.task<span class="token punctuation">(</span><span class="token string">'minify-html'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
     <span class="token keyword">return</span> gulp.src<span class="token punctuation">(</span><span class="token string">'./public/**/*.html'</span><span class="token punctuation">)</span>
         .pipe<span class="token punctuation">(</span>htmlclean<span class="token punctuation">(</span><span class="token punctuation">))</span>
-        .pipe<span class="token punctuation">(</span>htmlmin<span class="token punctuation">(</span><span class="token punctuation">{</span>
+        .pipe<span class="token punctuation">(</span>htmlmin<span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
             removeComments: true,
             minifyJS: true,
             minifyCSS: true,
             minifyURLs: true,
-        <span class="token punctuation">}</span><span class="token punctuation">))</span>
+        <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;))</span>
         .pipe<span class="token punctuation">(</span>gulp.dest<span class="token punctuation">(</span><span class="token string">'./public'</span><span class="token punctuation">))</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;);</span>
 
-gulp.task<span class="token punctuation">(</span><span class="token string">'minify-js'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+gulp.task<span class="token punctuation">(</span><span class="token string">'minify-js'</span>, <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
     <span class="token keyword">return</span> gulp.src<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'./public/**/*.js'</span>, <span class="token string">'!./public/**/*.min.js'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-        .pipe<span class="token punctuation">(</span>babel<span class="token punctuation">(</span><span class="token punctuation">{</span> presets: <span class="token punctuation">[</span><span class="token string">'es2015'</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">))</span>
+        .pipe<span class="token punctuation">(</span>babel<span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123; presets: ['es2015'] &amp;#125;))</span>
         .pipe<span class="token punctuation">(</span>uglify<span class="token punctuation">(</span><span class="token punctuation">))</span>
         .pipe<span class="token punctuation">(</span>gulp.dest<span class="token punctuation">(</span><span class="token string">'./public'</span><span class="token punctuation">))</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;);</span>
 
 gulp.task<span class="token punctuation">(</span><span class="token string">'default'</span>, <span class="token punctuation">[</span><span class="token string">'minify-html'</span>, <span class="token string">'minify-css'</span>, <span class="token string">'minify-js'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
@@ -565,19 +572,19 @@ gulp.task<span class="token punctuation">(</span><span class="token string">'def
 </code></pre>
 <h4 id="gulp运行截图"><a href="#gulp运行截图" class="headerlink" title="gulp运行截图"></a>gulp运行截图</h4><p><img src="https://img.leaferx.ink/86504825e54d397ab0b2.jpg" alt="截图"></p>
 <h4 id="gulp运行前后比较"><a href="#gulp运行前后比较" class="headerlink" title="gulp运行前后比较"></a>gulp运行前后比较</h4><p><img src="https://img.leaferx.ink/563fe13572154f249748.jpg" alt="截图"></p>
-<h1 id="4-更为推（tou）荐（lan）的姿势"><a href="#4-更为推（tou）荐（lan）的姿势" class="headerlink" title="4.更为推（tou）荐（lan）的姿势"></a>4.更为推（tou）荐（lan）的姿势</h1><h3 id="打开博客根目录的-package-json-，在-“scripts”-项增加一个-“publish”-命令："><a href="#打开博客根目录的-package-json-，在-“scripts”-项增加一个-“publish”-命令：" class="headerlink" title="打开博客根目录的 package.json ，在 “scripts” 项增加一个 “publish” 命令："></a>打开博客根目录的 package.json ，在 “scripts” 项增加一个 “publish” 命令：</h3><pre class=" language-bash"><code class="language-bash"><span class="token punctuation">{</span>
+<h1 id="4-更为推（tou）荐（lan）的姿势"><a href="#4-更为推（tou）荐（lan）的姿势" class="headerlink" title="4.更为推（tou）荐（lan）的姿势"></a>4.更为推（tou）荐（lan）的姿势</h1><h3 id="打开博客根目录的-package-json-，在-“scripts”-项增加一个-“publish”-命令："><a href="#打开博客根目录的-package-json-，在-“scripts”-项增加一个-“publish”-命令：" class="headerlink" title="打开博客根目录的 package.json ，在 “scripts” 项增加一个 “publish” 命令："></a>打开博客根目录的 package.json ，在 “scripts” 项增加一个 “publish” 命令：</h3><pre class=" language-bash"><code class="language-bash"><span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
   //<span class="token punctuation">..</span>.
-  <span class="token string">"scripts"</span><span class="token keyword">:</span> <span class="token punctuation">{</span>
+  <span class="token string">"scripts"</span><span class="token keyword">:</span> <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#123;</span>
     //<span class="token punctuation">..</span>.
     <span class="token string">"publish"</span><span class="token keyword">:</span> <span class="token string">"hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d"</span>,
     //<span class="token punctuation">..</span>.
-  <span class="token punctuation">}</span>
+  <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;</span>
   //<span class="token punctuation">..</span>.
-<span class="token punctuation">}</span>
+<span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;</span>
 </code></pre>
 <h3 id="然后每次需要部署的时候只要运行下面命令就可以啦。"><a href="#然后每次需要部署的时候只要运行下面命令就可以啦。" class="headerlink" title="然后每次需要部署的时候只要运行下面命令就可以啦。"></a>然后每次需要部署的时候只要运行下面命令就可以啦。</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> run publish
 </code></pre>
-<h4 id="省了-20-个字符呢"><a href="#省了-20-个字符呢" class="headerlink" title="省了 20 个字符呢"></a>省了 20 个字符呢</h4><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
+<h4 id="省了-20-个字符呢"><a href="#省了-20-个字符呢" class="headerlink" title="省了 20 个字符呢"></a>省了 20 个字符呢</h4><script type="text/javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -711,7 +718,7 @@ gulp.task<span class="token punctuation">(</span><span class="token string">'def
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -723,10 +730,10 @@ gulp.task<span class="token punctuation">(</span><span class="token string">'def
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -1055,6 +1062,13 @@ $(document).ready(function() {
                 <a href="/kwptuku/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   相册
+                </a>
+              </li>
+            
+              <li>
+                <a href="/KWGAME/">
+                  <i class="fa fa fa-gamepad" aria-hidden="true"></i>
+                  游戏
                 </a>
               </li>
             

@@ -59,10 +59,140 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 6.2.0">
+<style type="text/css" lang="css">
+    #loading-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        width: 100vw;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        text-align: center;
+        /* loader页面消失采用渐隐的方式*/
+        -webkit-transition: opacity 1s ease;
+        -moz-transition: opacity 1s ease;
+        -o-transition: opacity 1s ease;
+        transition: opacity 1s ease;
+    }
+    .loading-image{
+        width: 120px;
+        height: 50px;
+        transform: translate(-50%);
+    }
+
+    .loading-image div:nth-child(2) {
+        -webkit-animation: pacman-balls 1s linear 0s infinite;
+        animation: pacman-balls 1s linear 0s infinite
+    }
+
+    .loading-image div:nth-child(3) {
+        -webkit-animation: pacman-balls 1s linear .33s infinite;
+        animation: pacman-balls 1s linear .33s infinite
+    }
+
+    .loading-image div:nth-child(4) {
+        -webkit-animation: pacman-balls 1s linear .66s infinite;
+        animation: pacman-balls 1s linear .66s infinite
+    }
+
+    .loading-image div:nth-child(5) {
+        -webkit-animation: pacman-balls 1s linear .99s infinite;
+        animation: pacman-balls 1s linear .99s infinite
+    }
+
+   .loading-image div:first-of-type {
+        width: 0;
+        height: 0;
+        border: 25px solid #49b1f5;
+        border-right-color: transparent;
+        border-radius: 25px;
+        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
+        animation: rotate_pacman_half_up .5s 0s infinite;
+    }
+    .loading-image div:nth-child(2) {
+        width: 0;
+        height: 0;
+        border: 25px solid #49b1f5;
+        border-right-color: transparent;
+        border-radius: 25px;
+        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
+        animation: rotate_pacman_half_down .5s 0s infinite;
+        margin-top: -50px;
+    }
+    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
+
+    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
+
+    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
+
+    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
+
+    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
+
+    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
+
+
+    .loading-image div:nth-child(3),
+    .loading-image div:nth-child(4),
+    .loading-image div:nth-child(5),
+    .loading-image div:nth-child(6){
+        background-color: #49b1f5;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin: 2px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        transform: translateY(-6.25px);
+        top: 25px;
+        left: 100px;
+    }
+    .loading-text{
+        margin-bottom: 20vh;
+        text-align: center;
+        color: #2c3e50;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding: 0 10px;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    @media only screen and (max-width: 500px) {
+         .loading-text{
+            font-size: 1.5rem;
+         }
+    }
+    .fadeout {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    /* logo出现动画 */
+    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
+ </style>
+ <script>
+(function () {
+    const loaded = function(){
+       setTimeout(function(){
+            const loader = document.getElementById("loading-container");
+            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
+            // document.getElementById("body-wrap").style.display="flex";
+            setTimeout(function(){
+                loader.style.display="none";
+            },1000); 
+        },1000);//强制显示loading page 1s  
+    };
+    loaded();
+})()
+ </script><meta name="generator" content="Hexo 6.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -342,6 +472,13 @@
                         </a>
                       </li>
                     
+                      <li>
+                        <a href="/KWGAME/">
+                          <i class="fa fa fa-gamepad" aria-hidden="true"></i>
+                          游戏
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -392,158 +529,18 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h1 id="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"><a href="#啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！" class="headerlink" title="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"></a>啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！</h1><pre class=" language-bath"><code class="language-bath"><!DOCTYPE html>
-<html>
-<head>
+          <h1 id="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"><a href="#啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！" class="headerlink" title="啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！"></a>啊…这两天发现小破站的av号都变成BV号了…记起来贼麻烦…下载B站视频的工具也还没更新，所以就扒了扒av转BV的各种脚本，我觉得这个做的还不错，改了改就搬过来了…还可以对吧！</h1><pre class=" language-bath"><code class="language-bath">
+
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <title>BV 号跋扈　～ Who done it!</title>
-<style type="text/css" lang="css">
-    #loading-container{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        width: 100vw;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #FFF;
-        text-align: center;
-        /* loader页面消失采用渐隐的方式*/
-        -webkit-transition: opacity 1s ease;
-        -moz-transition: opacity 1s ease;
-        -o-transition: opacity 1s ease;
-        transition: opacity 1s ease;
-    }
-    .loading-image{
-        width: 120px;
-        height: 50px;
-        transform: translate(-50%);
-    }
-
-    .loading-image div:nth-child(2) {
-        -webkit-animation: pacman-balls 1s linear 0s infinite;
-        animation: pacman-balls 1s linear 0s infinite
-    }
-
-    .loading-image div:nth-child(3) {
-        -webkit-animation: pacman-balls 1s linear .33s infinite;
-        animation: pacman-balls 1s linear .33s infinite
-    }
-
-    .loading-image div:nth-child(4) {
-        -webkit-animation: pacman-balls 1s linear .66s infinite;
-        animation: pacman-balls 1s linear .66s infinite
-    }
-
-    .loading-image div:nth-child(5) {
-        -webkit-animation: pacman-balls 1s linear .99s infinite;
-        animation: pacman-balls 1s linear .99s infinite
-    }
-
-   .loading-image div:first-of-type {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
-        animation: rotate_pacman_half_up .5s 0s infinite;
-    }
-    .loading-image div:nth-child(2) {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
-        animation: rotate_pacman_half_down .5s 0s infinite;
-        margin-top: -50px;
-    }
-    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
 
 
-    .loading-image div:nth-child(3),
-    .loading-image div:nth-child(4),
-    .loading-image div:nth-child(5),
-    .loading-image div:nth-child(6){
-        background-color: #49b1f5;
-        width: 15px;
-        height: 15px;
-        border-radius: 100%;
-        margin: 2px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        transform: translateY(-6.25px);
-        top: 25px;
-        left: 100px;
-    }
-    .loading-text{
-        margin-bottom: 20vh;
-        text-align: center;
-        color: #2c3e50;
-        font-size: 2rem;
-        box-sizing: border-box;
-        padding: 0 10px;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-    @media only screen and (max-width: 500px) {
-         .loading-text{
-            font-size: 1.5rem;
-         }
-    }
-    .fadeout {
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-    /* logo出现动画 */
-    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
- </style>
- <script>
-(function () {
-    const loaded = function(){
-       setTimeout(function(){
-            const loader = document.getElementById("loading-container");
-            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
-            // document.getElementById("body-wrap").style.display="flex";
-            setTimeout(function(){
-                loader.style.display="none";
-            },1000); 
-        },1000);//强制显示loading page 1s  
-    };
-    loaded();
-})()
- </script></head>
 
-
- <div id="loading-container">
-     <p class="loading-text">玩命加载中 . . . </p> 
-     <div class="loading-image">
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div> 
-         <div></div>
-     </div>
- </div><body>
 <p>BV号转AV号</p>
-<input type="text" id="av"><button onclick="return av() && false">AV 号转 BV 号</button>
-<input type="text" id="bv"><button onclick="return bv() && false">BV 号转 AV 号</button>
+<input type="text" id="av"><button onclick="return av() &amp;&amp; false">AV 号转 BV 号</button>
+<input type="text" id="bv"><button onclick="return bv() &amp;&amp; false">BV 号转 AV 号</button>
 <p id="result">结果：</p>
 <p>别问我为何这么丑，这玩意叫简洁风！！！</p>
 <p>改写自 <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/381784377/answer/1099438784">mcfx 的纸糊回答</a>，并加上一些适当的处理。</p>
@@ -558,91 +555,91 @@ const s = [11, 10, 3, 8, 4, 6];
 const xor = 177451812;
 const add = 8728348608;
 
-const av2bv = (av) => {
+const av2bv = (av) => &#123;
     let num = NaN;
-    if (Object.prototype.toString.call(av) === '[object Number]') {
+    if (Object.prototype.toString.call(av) === '[object Number]') &#123;
         num = av;
-    } else if (Object.prototype.toString.call(av) === '[object String]') {
+    &#125; else if (Object.prototype.toString.call(av) === '[object String]') &#123;
         num = parseInt(av.replace(/[^0-9]/gu, ''));
-    };
-    if (isNaN(num) || num <= 0) {
+    &#125;;
+    if (isNaN(num) || num <= 0) &#123;
         // 网页版直接输出这个结果了
         return '¿你在想桃子？';
-    };
+    &#125;;
 
     num = (num ^ xor) + add;
     let result = [...'BV1  4 1 7  '];
     let i = 0;
-    while (i < 6) {
+    while (i < 6) &#123;
         // 这里改写差点犯了运算符优先级的坑
         // 果然 Python 也不是特别熟练
         // 说起来 ** 按照传统语法应该写成 Math.pow()，但是我个人更喜欢 ** 一些
         result[s[i]] = table[Math.floor(num / 58 ** i) % 58];
         i += 1;
-    };
+    &#125;;
     return result.join('');
-};
+&#125;;
 
-const bv2av = (bv) => {
+const bv2av = (bv) => &#123;
     let str = '';
-    if (bv.length === 12) {
+    if (bv.length === 12) &#123;
         str = bv;
-    } else if (bv.length === 10) {
-        str = `BV${bv}`;
+    &#125; else if (bv.length === 10) &#123;
+        str = `BV$&#123;bv&#125;`;
     // 根据官方 API，BV 号开头的 BV1 其实可以省略
     // 不过单独省略个 B 又不行（
-    } else if (bv.length === 9) {
-        str = `BV1${bv}`;
-    } else {
+    &#125; else if (bv.length === 9) &#123;
+        str = `BV1$&#123;bv&#125;`;
+    &#125; else &#123;
         return '¿你在想桃子？';
-    };
-    if (!str.match(/[Bb][Vv][fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF]{10}/gu)) {
+    &#125;;
+    if (!str.match(/[Bb][Vv][fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF]&#123;10&#125;/gu)) &#123;
         return '¿你在想桃子？';
-    };
+    &#125;;
 
     let result = 0;
     let i = 0;
-    while (i < 6) {
+    while (i < 6) &#123;
         result += table.indexOf(str[s[i]]) * 58 ** i;
         i += 1;
-    };
-    return `av${result - add ^ xor}`;
-};
+    &#125;;
+    return `av$&#123;result - add ^ xor&#125;`;
+&#125;;
 
-const av = () => {
+const av = () => &#123;
     let result = av2bv(document.getElementById('av').value);
-    if (result !== '¿你在想桃子？') {
-        document.getElementById('result').innerHTML = `结果：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/${result}">${result}</a>`;
-    } else {
-        document.getElementById('result').innerHTML = `结果：${result}`;
-    };
-};
+    if (result !== '¿你在想桃子？') &#123;
+        document.getElementById('result').innerHTML = `结果：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/$&#123;result&#125;">$&#123;result&#125;</a>`;
+    &#125; else &#123;
+        document.getElementById('result').innerHTML = `结果：$&#123;result&#125;`;
+    &#125;;
+&#125;;
 
-const bv = () => {
+const bv = () => &#123;
     let result = bv2av(document.getElementById('bv').value);
-    if (result !== '¿你在想桃子？') {
-        document.getElementById('result').innerHTML = `结果：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/${result}">${result}</a>`;
-    } else {
-        document.getElementById('result').innerHTML = `结果：${result}`;
-    };
-};
+    if (result !== '¿你在想桃子？') &#123;
+        document.getElementById('result').innerHTML = `结果：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/$&#123;result&#125;">$&#123;result&#125;</a>`;
+    &#125; else &#123;
+        document.getElementById('result').innerHTML = `结果：$&#123;result&#125;`;
+    &#125;;
+&#125;;
 
-document.getElementById('av').addEventListener('keydown', (event) => {
-    if (event.keyCode === 13) {
+document.getElementById('av').addEventListener('keydown', (event) => &#123;
+    if (event.keyCode === 13) &#123;
         av();
-    };
-});
+    &#125;;
+&#125;);
 
-document.getElementById('bv').addEventListener('keydown', (event) => {
-    if (event.keyCode === 13) {
+document.getElementById('bv').addEventListener('keydown', (event) => &#123;
+    if (event.keyCode === 13) &#123;
         bv();
-    };
-});
+    &#125;;
+&#125;);
 </script>
-</body>
-</html>
+
+
 </code></pre>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
+<script type="text/javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -776,7 +773,7 @@ document.getElementById('bv').addEventListener('keydown', (event) => {
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -788,10 +785,10 @@ document.getElementById('bv').addEventListener('keydown', (event) => {
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -1120,6 +1117,13 @@ $(document).ready(function() {
                 <a href="/kwptuku/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   相册
+                </a>
+              </li>
+            
+              <li>
+                <a href="/KWGAME/">
+                  <i class="fa fa fa-gamepad" aria-hidden="true"></i>
+                  游戏
                 </a>
               </li>
             
