@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">基于Hexo的matery主题搭建博客（已作废） | KINGWDYの博客</title>
+  <title itemprop="name">Tag: 插件 | KINGWDYの博客</title>
   
     <link rel="shortcut icon" href="https://i.postimg.cc/xT7tgjWb/5-11.gif">
   
@@ -189,10 +189,10 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 6.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
-
+ </script><meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-</head>
+<link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -490,194 +490,64 @@
   </div>
 </header>
 
-      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+      
 <div class="pattern-center-blank"></div>
-
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://w.wallhaven.cc/full/49/wallhaven-49mokx.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://w.wallhaven.cc/full/49/wallhaven-49mokx.jpg">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      基于Hexo的matery主题搭建博客（已作废）</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="">
-          </a>
-        </span>
-        <span>
-          <a href="">KINGWDY</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2022-5-15<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-      		  <!-- 开始添加字数统计-->
-            
-            <!-- 添加完成 -->    
-    </header>
+<div class="pattern-center ">
+  <div class="pattern-attachment-img">
+    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="插件.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
   </div>
-
+  <header class="pattern-header ">
+    <h1 class="cat-title">插件</h1>
+  </header>
+</div>
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-        <div class="toc"></div>
-        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
-        
-        <div class="entry-content">
-          <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="下载git和node"><a href="#下载git和node" class="headerlink" title="下载git和node"></a>下载git和node</h2><p>首先，搭建博客需要两个环境，一个是node.js，一个是git。<br>打开终端（win的cmd）输入</p>
-<pre class=" language-bash"><code class="language-bash">node -v               <span class="token comment" spellcheck="true">#查看node版本</span>
-<span class="token function">git</span> --version      <span class="token comment" spellcheck="true">#查看git版本</span>
-</code></pre>
-<p>img: <a target="_blank" rel="noopener" href="https://img-blog.csdnimg.cn/20210111235301324.jpg#pic_center">https://img-blog.csdnimg.cn/20210111235301324.jpg#pic_center</a><br>如果没有显示版本号则需要配置环境变量：</p>
-<h3 id="win"><a href="#win" class="headerlink" title="win:"></a>win:</h3><p>右键点击“我的电脑”→高级系统设置→环境变量,给在系统变量给node新建变量：变量：NODE_PATH 值：node文件夹所在地址（如：F:\node）然后点击系统变量中Path的编辑，新建以下几个环境变量：</p>
-<pre class=" language-bash"><code class="language-bash">F:\node\
-F:\Git\Git\cmd
-F:\node\node_global\
-<span class="token comment" spellcheck="true">### ！！！具体情况需要看文件位置而定！！！</span>
-</code></pre>
-<h3 id="mac安装相关服务"><a href="#mac安装相关服务" class="headerlink" title="mac安装相关服务"></a>mac安装相关服务</h3><p>然后再验证node和git的版本。</p>
-<h2 id="cnpm安装"><a href="#cnpm安装" class="headerlink" title="cnpm安装"></a>cnpm安装</h2><p>直接用npm速度会比较慢（源在国外），没有梯子的就会卡住，因此要利用npm安装cnpm.<br>打开Git Bash输入以下命令：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g cnpm --registry<span class="token operator">=</span>http://registry.npm.taobao.org
-<span class="token comment" spellcheck="true">#安装淘宝的cnpm 管理器</span>
-</code></pre>
-<p>安装完成后，以后可以用cnpm直接代替npm.</p>
-<h2 id="hexo框架安装"><a href="#hexo框架安装" class="headerlink" title="hexo框架安装"></a>hexo框架安装</h2><pre class=" language-bash"><code class="language-bash">cnpm <span class="token function">install</span> -g hexo-cli    //安装hexo框架
-hexo -v        //查看hexo版本
-</code></pre>
-<h1 id="（正题）利用hexo搭建博客"><a href="#（正题）利用hexo搭建博客" class="headerlink" title="（正题）利用hexo搭建博客"></a>（正题）利用hexo搭建博客</h1><p>在一个地方创建空文件夹（命名blog），所有东西将在里面生成。</p>
-<pre class=" language-bash"><code class="language-bash">win:打开文件夹，在此文件夹下运行git bash（右键单击空白处）
-mac:打开终端，cd到文件夹
-</code></pre>
-<h2 id="注意！！！接下来的mac和win端基本一致，但是mac端必须在hexo安装的根目录运行命令，否则报错"><a href="#注意！！！接下来的mac和win端基本一致，但是mac端必须在hexo安装的根目录运行命令，否则报错" class="headerlink" title="注意！！！接下来的mac和win端基本一致，但是mac端必须在hexo安装的根目录运行命令，否则报错"></a>注意！！！接下来的mac和win端基本一致，但是mac端必须在hexo安装的根目录运行命令，否则报错</h2><p>运行下面的这段命令（报错就sudo）</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> hexo init     <span class="token comment" spellcheck="true">#生成博客 初始化博客</span>
-</code></pre>
-<p>这时候系统会自动克隆文件到blog，并默认landscape主题。再输入命令：</p>
-<pre class=" language-bash"><code class="language-bash">hexo s    <span class="token comment" spellcheck="true">#启动本地博客服务</span>
-</code></pre>
-<p>这里就可以看到</p>
-<pre class=" language-bash"><code class="language-bash">INFO  Hexo is running at http://localhost:4000 <span class="token keyword">.</span> Press Ctrl+C to stop.
-</code></pre>
-<h3 id="打开浏览器，输入http-localhost-4000本地调试"><a href="#打开浏览器，输入http-localhost-4000本地调试" class="headerlink" title="打开浏览器，输入http://localhost:4000本地调试"></a>打开浏览器，输入<a href="http://localhost:4000本地调试">http://localhost:4000本地调试</a></h3><h1 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h1><p>输入命令：</p>
-<pre class=" language-bash"><code class="language-bash">hexo n <span class="token string">"我的第一篇文章（这里改为你的文章名）"</span> 
-</code></pre>
-<p>可以看到在source文件夹下的_posts文件夹下创建了.md文件。<br>打开文件就可以编辑内容，里面是基于markdown语法的。<br>想了解Markdown语法如何使用，请看b站视频<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hJ411X75X?from=search&amp;seid=9433284770037044167">15分钟快速上手Markdown教程</a></p>
-<h1 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h1><h3 id="今天先到这，日更（搭建文章已经很累了，我想休息一会，请谅解，有事请留言）"><a href="#今天先到这，日更（搭建文章已经很累了，我想休息一会，请谅解，有事请留言）" class="headerlink" title="今天先到这，日更（搭建文章已经很累了，我想休息一会，请谅解，有事请留言）"></a>今天先到这，日更（搭建文章已经很累了，我想休息一会，请谅解，有事请留言）</h3><script type="text/javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
-        </div>
-        <!-- .entry-content -->
-        <div class="single-reward">
-          <div class="reward-open">赏
-            <div class="reward-main">
-              <ul class="reward-row">
-                <li class="alipay-code"><img src="https://gitlab.com/KINGWDY/tgbb/-/raw/main/EBA5FF7A-2505-43A8-99F5-257745FAFAAA.jpeg"></li>
-                <li class="wechat-code"><img src="https://gitlab.com/KINGWDY/tgbb/-/raw/main/EBA5FF7A-2505-43A8-99F5-257745FAFAAA.jpeg"></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-        <footer class="post-footer">
-          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-          <div class="post-tags">
-          </div>
-          <div class="post-share">
-            <div class="social-share sharehidden share-component"></div>
-            <i class="iconfont show-share icon-forward"></i>
-          </div>
-        </footer><!-- .entry-footer -->
-      </article>
-      <!-- #post-## -->
-      <div class="toc" style="background: none;"></div>
-      <section class="post-squares nextprev">
-        
-          
-            <div class="post-nepre full previous">
-          
-            <a href="/posts/25167.html" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://w.wallhaven.cc/full/76/wallhaven-76dx79.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://w.wallhaven.cc/full/76/wallhaven-76dx79.jpg">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                在hexo里用思维导图</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-        
-      </section>
       
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "rE28AlFx3emaxTx9NQPPYfef-MdYXbMMI",
-        appKey: "Blb6VBNddsWX7RriyHt7RsfD",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
-
-
-
-    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-    <div id="waline"></div>
-    <style>
-    #waline textarea {
-        box-sizing: border-box;
-        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
-    }
-    </style>
-    <script>
-        Waline({
-              el: '#waline',
-              serverURL: '',
-              pageSize: '10',
-              lang: 'en',
-              requiredFields: ['nick','mail'], //设置必填项
-              placeholder: '祝开开心心！',
-              visitor: 'true',
-              emoji: [
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
-              ],
-              avatar: 'mp',
-              dark: 'auto',
-            });
-    </script>
-
-
-
-      <section class="author-profile">
-        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="KINGWDY" height="70" width="70"></a>
-          <div class="meta">
-            <span class="title">Author</span>
-            <h3 itemprop="name">
-            <a href="" itemprop="url" rel="author">KINGWDY</a>
-            </h3>
-          </div>
+  <!-- 首页默认取最最新文章集 -->
+  
+    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
+      <a href="/posts/27498.html">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
         </div>
-        <hr>
-        <p><i class="iconfont icon-write"></i></p>
-      </section>
-    </main><!-- #main -->
-  </div><!-- #primary -->
+        <img width="150" height="150" src="https://w.wallhaven.cc/full/e7/wallhaven-e7lv2k.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/posts/27498.html">
+    HEXO-admin安装和使用（汉化版）</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2022-5-24</div>
+    <p>
+    </p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/posts/27498.html">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
+  
+
+
+      <div class="clearer">
+      </div>
+    </main>
+    <!--  -->
+    
+  </div>
 </div>
-
-
-
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
