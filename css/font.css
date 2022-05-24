@@ -145,3 +145,11 @@
 
 .icon-Hearthstone:before { content: "\e6b9"; }
 
+@font-face{
+  font-family: 'myFont';
+  src: url('../fonts/myFont.ttf');
+}
+
+body{
+  font-family: 'myFont';
+}
