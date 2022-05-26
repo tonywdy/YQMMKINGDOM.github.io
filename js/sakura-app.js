@@ -504,6 +504,8 @@ $(document).ready(function () {
   changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png')
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
+  changeBG('#ow', 'https://img0.baidu.com/it/u=3974338625,1291633984&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=500')
+  changeBG('#kb', 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.sinaimg.cn%2Fdy%2Fslidenews%2F2_img%2F2012_11%2F786_647421_566733.jpg&refer=http%3A%2F%2Fwww.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656066568&t=89111b5265068f932d3fa3bafcda39c3')
   changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
