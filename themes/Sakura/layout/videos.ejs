@@ -1,0 +1,247 @@
+<%- partial('_partial/header') %>
+<style>
+    @media only screen and (max-width: 601px) {
+        #switchspring {
+            bottom: 178px!important;
+        }
+    }
+    #switchspring {
+        bottom: 243px;
+    }
+    .container .row {
+        margin-top: 69px;
+    }
+    .bg-cover::before {
+        background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/grid.png);
+    }
+    .musis > div {
+        margin-bottom: 60px;
+    }
+    .aplayer {
+        border-radius: 8px!important;
+    }
+    .comment-scroll {
+        bottom: 93px;
+    }
+    .v[data-class=v] .vcards {
+        display: none;
+    }
+    .musis div p {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 18px;
+    }
+    .musictitle {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+        margin-bottom: 0px!important;
+        padding-top: 24px;
+    }
+    body.dark .musictitle, body.dark .tipsbili {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .tipsbili, .tipsbili code {
+        font-size: 0.2rem;
+        padding: 4px 10px;
+    }
+    
+    /* 修改小屏幕下logo文字样式. */
+    @media only screen and (max-width: 600px) {
+        .about-cover {
+            height: 64vh;
+        }   
+        .container .row {
+            margin-top: 50px;
+        }
+        .biye {
+            padding: 0 8px 8px 8px!important;
+            width: 96%;
+            height: 96%;
+        }
+        .musis > div {
+            margin-bottom: 45px;
+        }
+        
+    }
+    .biye {
+        padding: 0 24px 24px 24px;
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+    }
+    .biye iframe {
+        border-radius: 8px;
+    }
+</style>
+
+<style>
+    @media only screen and (max-width: 800px) {
+      .swbk {
+          padding: 26px 2px!important;
+          margin: 14px 0px!important;
+      }
+    }
+    .swbk {
+        position: relative;
+        padding: 26px 20px;
+        font-style: italic;
+        margin: 10px 0px;
+        border-radius: 8px;
+        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
+        box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
+        -webkit-transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
+    }
+    .swbk:hover {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
+        box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
+    }
+    .swbk:before {
+        content: " “ ";
+        top: 56px;
+        /* left: -14px; */
+    }
+    .swbk:after {
+        content: " ” ";
+        bottom: 8px;
+        right: 5px;
+    }
+    .swbk:after, .swbk:before {
+        position: absolute;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        text-decoration: inherit;
+    }
+    .ziwojieshao .swbk:after, .ziwojieshao .swbk:before {
+        display: none;
+    }
+    body.dark .swbk:after, body.dark .swbk:before {
+        color: #d2c9c9;
+    }
+    .swbk p {
+        font-size: 19px!important;
+        line-height: 1.3rem;
+        text-indent: 2rem;
+        font-style: italic;
+        font-family: 'Architects Daughter', cursive!important;
+    }
+    .swbk .label {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 10px;
+        padding: 0 14px 0 32px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 0 3px 3px 0;
+        background-color: currentColor;
+    }
+    .swbk .label span {
+        color: #fff;
+    }
+    .swbk .label:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 0 16px 16px 0;
+        border-color: transparent;
+        border-right-color: currentColor;
+        -webkit-filter: brightness(120%);
+        filter: brightness(120%);
+    }
+    @media screen and (min-width: 768px) {
+        .swbk .label {
+            left: -37px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .swbk .label {
+            left: -18px;
+        }
+        .swbk p {
+            line-height: 2.02rem;
+            padding: 2px 8px;
+        }
+    }
+</style>
+
+<main class="content">
+    <div class="container">
+        <div class="card musis">
+        
+        <div class="musictitle center-align">
+        
+        <!-- B站视频模块 -->
+        <div class="biye">
+            <div class="swbk">
+                <div class="label" style="color: rgb(134, 193, 102);">
+                    <!-- 小帽子 -->
+                    <span>元気满满的KING的B站视频</span></div>
+                <p>我其实算不上up主，只不过对自媒体感兴趣，想记录一下生活、学习、娱乐、工作。</p>
+            </div>
+            
+            <div style="position: relative; padding: 30% 45%;">
+                <iframe style="
+                    position: absolute; 
+                    width: 100%; 
+                    height: 100%; 
+                    left: 0; top: 0;" 
+                    src="//player.bilibili.com/player.html?aid=467896426&bvid=BV1x5411D7mf&cid=567186367&page=1"
+                    scrolling="no" 
+                    border="0" 
+                    frameborder="no" 
+                    framespacing="0" 
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+        <div class="biye">
+            <div class="swbk">
+            <div style="position: relative; padding: 30% 45%;">
+                <iframe style="
+                    position: absolute; 
+                    width: 100%; 
+                    height: 100%; 
+                    left: 0; top: 0;" 
+                    src="//player.bilibili.com/player.html?aid=596001004&bvid=BV1AB4y1m7S3&cid=585939333&page=1"
+                    scrolling="no" 
+                    border="0" 
+                    frameborder="no" 
+                    framespacing="0" 
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+        <div class="biye">
+            <div class="swbk">
+            <div style="position: relative; padding: 30% 45%;">
+                <iframe style="
+                    position: absolute; 
+                    width: 100%; 
+                    height: 100%; 
+                    left: 0; top: 0;" 
+                    src="//player.bilibili.com/player.html?aid=336877859&bvid=BV1BR4y1x719&cid=450102210&page=1"
+                    scrolling="no" 
+                    border="0" 
+                    frameborder="no" 
+                    framespacing="0" 
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+                </div>           
+            </div>       
+        </div>
+
+    </div>
+</main>
+
+

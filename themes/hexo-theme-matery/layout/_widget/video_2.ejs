@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.dplayer) %>">
+<div class="video-player">
+    <% if (theme.video_2.showTitle) { %>
+    <div class="title center-align">
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;<%= theme.video_2.title %>
+    </div>
+    <% } %>
+    <div class="row">
+		<% if (theme.video_2.url) { %>
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer_2" class="dplayer-video"
+                    <% if (theme.video_2.height) { %> style="height: <%- theme.video_2.height %>px;"<% } %>></div>
+        </div>
+		<% }else{ %>
+			<iframe src='<% if (theme.video_2 .iframeUrl) { %><%- url_for(theme.video_2 .iframeUrl) %><% } %>' scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" align="middle" <% if (theme.video_2.height) { %> style="height: <%- theme.video_2.height %>px;"<% } %> width="100%"> </iframe>
+		<% } %>
+    </div>
+</div>
+
+<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.dplayer) %>"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer_2'),
+            autoplay: '<%- theme.video_2.autoplay %>' === 'true',
+            theme: '<%- theme.video_2.theme %>',
+            loop: '<%- theme.video_2.loop %>' === 'true',
+            lang: '<%- config.language %>' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: '<%- theme.video_2.preload %>',
+            volume: Number('<%- theme.video_2.volume %>'),
+            video_2 : {
+                url: '<% if (theme.video_2.url) { %><%- url_for(theme.video_2.url) %><% } %>',
+                pic: '<% if (theme.video_2.pic) { %><%- url_for(theme.video_2.pic) %><% } %>',
+                thumbnails: '<% if (theme.video_2.thumbnails) { %><%- url_for(theme.video_2.thumbnails) %><% } %>'
+            }
+        });
+    });
+</script>

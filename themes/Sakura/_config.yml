@@ -1,0 +1,194 @@
+# site name
+prefixName: KINGWDYの
+siteName: ブログ
+# favicon and site master avatar
+favicon: https://i.postimg.cc/xT7tgjWb/5-11.gif
+avatar: https://i.postimg.cc/xT7tgjWb/5-11.gif
+url: https://kingwdy.avosapps.us
+description: #
+cdn: 
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 12313
+lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book },
+    标签: {path: /tags/, fa: fa-tag },
+    分类: {path: /categories/, fa: fa-bookmark }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    vlog: {path: /videos/, fa: fa-youtube-play }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于我: { path: /about/, fa: fa-meetup , submenus: } 
+  更多: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    工具: { path: /more/, fa: fa-gear },
+    说说: {path: /shuoshuo/, fa: fa-commenting-o fa-commenting },
+    导航: {path: /box/, fa: fas fa-location-arrow },
+    🚇开往: {path: https://travellings.link }
+  } }
+  
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1s
+
+# 背景图片 【选】
+bgn: 8
+# 背景图片 更好的修改
+bg:
+  - https://w.wallhaven.cc/full/13/wallhaven-13o6xg.png
+  - https://w.wallhaven.cc/full/5w/wallhaven-5w8ko9.png
+  - https://w.wallhaven.cc/full/md/wallhaven-md3wd9.jpg
+  - https://w.wallhaven.cc/full/yj/wallhaven-yj87gg.png
+  - https://w.wallhaven.cc/full/5d/wallhaven-5d2jw5.jpg
+  - https://w.wallhaven.cc/full/ey/wallhaven-ey76e8.png
+  - https://w.wallhaven.cc/full/zx/wallhaven-zxd19o.jpg
+  - https://w.wallhaven.cc/full/13/wallhaven-13xwwv.jpg
+  - https://w.wallhaven.cc/full/dp/wallhaven-dp6d3m.jpg
+  - https://w.wallhaven.cc/full/lm/wallhaven-lmkzky.jpg
+  - https://w.wallhaven.cc/full/p8/wallhaven-p8x52j.png
+  - https://w.wallhaven.cc/full/nr/wallhaven-nrpl70.jpg
+  - https://w.wallhaven.cc/full/y8/wallhaven-y8g5ok.png
+  - https://w.wallhaven.cc/full/3z/wallhaven-3z3zq9.jpg
+  - https://w.wallhaven.cc/full/8x/wallhaven-8xd17o.jpg
+  - https://w.wallhaven.cc/full/eo/wallhaven-eopr6l.jpg
+  - https://api.flymc.cc/hotlink-ok/cover/79583493_p0.jpg
+  - https://api.flymc.cc/hotlink-ok/cover/83908460_p0.jpg
+  - https://api.flymc.cc/hotlink-ok/cover/86800103_p0.jpg
+  - https://api.flymc.cc/hotlink-ok/cover/★%20@Gieep.jpg
+  - https://api.flymc.cc/hotlink-ok/cover/313275_animal_ears_brown_hair_catgir.jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash url, title, desc img
+startdash: 
+  - {url: /theme-sakura/, title: Sakura, desc: 本站使用的 hexo 主题, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/sakura.md.png}
+  - {url: https://space.bilibili.com/524861725?spm_id_from=333.1007.0.0, title: Bilibili, desc: 博主的b站视频, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/bilibili.jpg}
+  - {url: http://chat.daovoice.io?id=8a05dc92, title: KW客服, desc: 技术服务, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/wangshiwu.jpg}
+  - {url: kwptuku, title: 我的相册, desc: 分享开心时刻, img: https://gitlab.com/KINGWDY/tgbb/-/raw/main/相册封面.webp}
+  - {url: KWGAME, title: 在线小游戏, desc: 创造快乐时光, img: https://gitlab.com/KINGWDY/tgbb/-/raw/main/ps5.webp}
+  - {url: https://yqmmkingdom.github.io/Blog-update-log/, title: 日志, desc: 记录本博客的更新信息, img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-b1b92836bcdbcd1bec62ad59a36a6e98_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656129639&t=2d7a1afa75fb1085df755d95ccac77b6}
+  - {url: map, title: 地图和实时数据, desc: 记录访客数据和服务器状态, img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0114a3598143d3a8012156030ff420.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656204790&t=739970fbdd74ba29280cb66b07fd1c30}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 07/17/2018
+
+#social  url, img PC端配置
+social:
+  github: {url: http://github.com/YQMMKINGDOM, img: https://cdn.jsdelivr.net/gh/YQMMKINGDOM/jsDelivr@main/github.png}
+  wangyiyun: {url: https://music.163.com/#/user/home?id=5064450374, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wangyiyun.png}
+  email: {url: https://gitlab.com/KINGWDY/tgbb/-/raw/acb16540267d358241b047a0a9d5ab6cc4b44e05/邮箱信息.md,  img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg }
+  blibli: {url: https://space.bilibili.com/524861725?spm_id_from=333.1007.0.0, img: https://gitlab.com/KINGWDY/tgbb/-/raw/main/bilibili.png}
+  wechat: {url: /#, qrcode: https://gitlab.com/KINGWDY/tgbb/-/raw/main/1E9CB5CE-0839-4D9D-8DDB-4B514B25EE38.webp, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+  CSDN: {url: https://blog.csdn.net/weixin_46397475?spm=1001.2101.3001.5343, img: https://g.csdnimg.cn/static/logo/favicon32.ico}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: http://github.com/YQMMKINGDOM, fa: fa-github, color: 333}
+  wechat: {url: https://gitlab.com/KINGWDY/tgbb/-/raw/main/1E9CB5CE-0839-4D9D-8DDB-4B514B25EE38.webp, fa: fa-wechat, color: dd4b39}
+  email: {url: https://gitlab.com/KINGWDY/tgbb/-/raw/acb16540267d358241b047a0a9d5ab6cc4b44e05/邮箱信息.md, fa: fa-email, color: 25c6fe}
+
+donate:
+  wechat: https://gitlab.com/KINGWDY/tgbb/-/raw/main/EBA5FF7A-2505-43A8-99F5-257745FAFAAA.webp
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+aplayer: 
+  id: 7437759374
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: true
+v_appId: rE28AlFx3emaxTx9NQPPYfef-MdYXbMMI
+v_appKey: Blb6VBNddsWX7RriyHt7RsfD
+v_verify: true 
+
+
+# Waline
+waline:
+  enable: true
+  serverURL: #服务端地址
+  visitor: true #统计阅读量
+  comment_count: true #统计评论数
+  avatar: mp # Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  guest_info: nick #,mail,link # custom comment header
+  pageSize: 10
+  placeholder: 祝开开心心！ # Comment Box placeholder
+  requiredFields: [ 'nick','mail' ] #设置必填项
+  background: https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif #输入框提示动画
+
+# leancloud数据统计
+leancloud_visitors:
+  enable: true 
+  app_id: Oxg7bmY4E2n2pXoOq7KOT7Mu-MdYXbMMI
+  app_key: kU0cFKSa2ip3IxMut8MTEto9
+
+# Online contact ##在线聊天
+daovoice: true
+daovoice_app_id: 8a05dc92  ##这里替换成你DaoVoice上的appid
+
+# 动态说说页面
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://artitalk.js.org
+artitalk:
+  appID: rE28AlFx3emaxTx9NQPPYfef-MdYXbMMI
+  appKEY: Blb6VBNddsWX7RriyHt7RsfD
+  per: 7 #每页显示说说的数量
+  username: root # Leancloud中设置的用户名
+  placeholder1: 没有密码，不能评论！ # 密码框提示语
+  lazy: 1 # 加载动画1:加载,0:取消加载
+  img: https://i.postimg.cc/xT7tgjWb/5-11.gif #用户默认头像
+  bgimg: https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif # 输入框小动画
+  # 极简黑白主题minimalist、渐变主题gradient、壁纸wallpaper 
+  # 参考 https://blog.csdn.net/cungudafa/article/details/106224223
+  style: 
+    enable: true #个性定制
+    wallpaper: https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg #https://bing.rthe.net/wallpaper  # 壁纸
+    color: white   #字体颜色
+    linear_gradient: rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35) 95% # 渐变规律颜色+百分比 rgb(109, 208, 242) 15%, rgb(245, 154, 190) 85%
+    border_right_color: '#FFC0BE' #三角颜色
+    animation: false #true打开动画渐变渲染(壁纸和动画渐变渲染建议只开一个)
+
+	# 是否开启字数统计
+	#不需要使用，直接设置值为false，或注释掉
+	word_count: true
+
+# 加载动画
+loading:
+  enable: true
+  time: 500 # 强制开启loading动画的时间 1000=1s,默认为0.5s
+
+# Whether to display post-calender in the `archive` page
+# 设置在归档页面achive中是否显示'文章日历'控件
+postCalendar: true 
+
