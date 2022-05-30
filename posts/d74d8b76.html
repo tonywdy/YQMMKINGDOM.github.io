@@ -188,9 +188,9 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
-
+ </script><meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <style type="text/css">
@@ -555,6 +555,15 @@
       </div>
     </div>
   </div>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?62d8301ce9601ef507ace9a60656f7f0";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
 </header>
 
       <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
@@ -596,7 +605,8 @@
         
         <div class="entry-content">
           <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>之前在<a target="_blank" rel="noopener" href="https://www.bilibili.com/">B站</a>上发布了个人博客的视频，播放量也破千了，有网友私聊也想要搭建一个这样的博客。经过一段时间的准备，现将本人博客的源代码公布出来，大家只需要根据以下的步骤，即可快速搭建一个漂亮完善的博客。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518215948.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518215948.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518215948.png"></a>
+
 <h3 id="0x01-LuckyBlog-介绍"><a href="#0x01-LuckyBlog-介绍" class="headerlink" title="0x01 LuckyBlog 介绍"></a>0x01 LuckyBlog 介绍</h3><p>上一个LuckyBlog版本发布于2020年的9月份，是在 <a target="_blank" rel="noopener" href="https://sunhwee.com/">洪卫の博客</a> 基础上进行修改的。自从发布以来有很多网友都私信搭建了博客，同时也发现了旧版本中存在的一些问题需要解决，例如：搜索框不适配XML代码搜索，部分图片失效，代码块问题以及各种小问题。现在将最新的LuckyBlog版本代码发布出来，修复改进了不少的BUG，使其更加稳定运行。同时完善了博客的基础功能，例如：音乐、视频、相册、百宝箱等页面。同时增加了不少的新功能，例如：适配Hexo5.x、黑白天浏览模式、仿Windows页面，站点统计等。</p>
 <ul>
 <li>博客演示地址：<a target="_blank" rel="noopener" href="http://luckyzmj.cn/">http://luckyzmj.cn/</a></li>
@@ -682,13 +692,16 @@
 <pre><code>git clone https://github.com/LuckyZmj/LuckyBlog.git
 </code></pre>
 <p>将下载好的<code>LuckyBlog</code>全部复制到<code>MyBlog</code>目录下，如果复制过程中出现重复文件，点击替换。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518202657.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518202657.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518202657.png"></a>
+
+
 <p>最后使用 <code>npm i</code> 或者 <code>npm install</code> 安装依赖环境包即可。</p>
 <blockquote>
 <p>如果安装依赖环境出错，可以参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/Seven71111/article/details/103364738">这篇文章</a>。</p>
 </blockquote>
 <p>最后执行 <code>hexo clean</code> 和 <code>hexo s -g</code> 启动Hexo本地预览，即可看到效果。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204521.JPG"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204521.JPG" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204521.JPG"></a>
+
 <p>到此为止LuckyBlog安装完成，接下来就是个性化设置了。</p>
 <h3 id="0x03-LuckyBlog-个性化"><a href="#0x03-LuckyBlog-个性化" class="headerlink" title="0x03 LuckyBlog 个性化"></a>0x03 LuckyBlog 个性化</h3><blockquote>
 <p>注意！注意！注意！在阅读以下博客个性化之前，最好希望大家有Hexo博客配置主题的基础。如果是完全小白，建议去网上搜索学习相关Hexo搭建博客的过程，另外去B站上也有很多视频教程。博客个性化是需要大家有耐心的，因为每个人的操作不同，在配置过程中可能会遇到一些不可预期的问题，希望大家可以克服这些困难，如有需要帮助，也可以私信博主帮助大家解决问题。</p>
@@ -730,7 +743,8 @@ favicon: https://s1.ax1x.com/2020/05/17/YR20js.jpg
 logo: https://s1.ax1x.com/2020/05/17/YRWsYT.png
 </code></pre>
 <h4 id="4-修改留言板简介"><a href="#4-修改留言板简介" class="headerlink" title="4. 修改留言板简介"></a>4. 修改留言板简介</h4><p>演示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204949.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204949.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518204949.png"></a>
+
 <p>编辑 <code>/MyBlog/contact/index.md</code>，修改你想要内容即可</p>
 <pre><code>---
 title: contact
@@ -757,7 +771,8 @@ Lucky_Meの友链信息
 </code></pre>
 <h4 id="5-修改音乐列表"><a href="#5-修改音乐列表" class="headerlink" title="5. 修改音乐列表"></a>5. 修改音乐列表</h4><p>想要修改自己喜欢的音乐之前，需要先获取音乐列表的id。</p>
 <p>以QQ音乐为例：先登录<a target="_blank" rel="noopener" href="https://y.qq.com/">QQ音乐网页版</a>，点击打开自己喜欢的音乐列表，在网页的URL处包含了音乐列表的id，如下图所示</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916213029.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916213029.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916213029.png"></a>
+
 <p>编辑主题目录下的配置文件<code>MyBlog/themes/matery/_config.yml</code>，找到如下内容并修改</p>
 <pre><code># 默认是博主的QQ音乐的id，大家可以改为自己音乐喜欢列表的id
 # 更新完id，就可以同步加载自己喜欢的列表音乐了
@@ -847,7 +862,8 @@ valine:
   app_id: 4xxxxxxxe   #DaoVoice中的app_id
 </code></pre>
 <h4 id="8-快捷导航页面个性化"><a href="#8-快捷导航页面个性化" class="headerlink" title="8. 快捷导航页面个性化"></a>8. 快捷导航页面个性化</h4><p>编辑文件<code>MyBlog/source/tools/index.html</code>，以下简单标记出几处，还有其他涉及到博客信息的内容都需要改为你自己的博客信息即可。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916235833.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916235833.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20200916235833.png"></a>
+
 <h4 id="9-添加友情链接"><a href="#9-添加友情链接" class="headerlink" title="9. 添加友情链接"></a>9. 添加友情链接</h4><p>编辑文件<code>MyBlog/suorce/_data/friends.json</code>，按如下格式添加友情</p>
 <pre><code>[
     {
@@ -890,11 +906,14 @@ https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/galleries/动漫风景/02.jpg
 https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/galleries/
 </code></pre>
 <p>themes/matery/layout/galleries.ejs</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183019.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183019.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183019.png"></a>
+
 <p>themes/matery/layout/gallerie.ejs</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183219.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183219.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183219.png"></a>
+
 <p>为每个相册添加链接地址，在根目录/source/List/galleries/下新建 相册名称 文件夹，并在该文件夹下新建 <code>index.md</code> </p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183808.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183808.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/posts/20201008183808.png"></a>
+
 <p>最后，在根目录/source/_data/galleries.json中添加图片链接，格式如下,</p>
 <pre><code>[
   {
@@ -946,12 +965,15 @@ https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed/galleries/
 ]
 </code></pre>
 <h4 id="11-站点统计功能"><a href="#11-站点统计功能" class="headerlink" title="11. 站点统计功能"></a>11. 站点统计功能</h4><p>站点统计的数据来源于<a target="_blank" rel="noopener" href="https://tongji.baidu.com/web/welcome/login">百度统计</a>,当你的网站被百度收录后就会在百度统计中出现数据，具体效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211242.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211242.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211242.png"></a>
+
 <p>由于博客的统计页面数据不能直接从百度站点中调用，因此需要自行从百度站点中将相应数据填入博客站点统计页面的源代码文件中，个人建议每隔一个月手动更新一次数据。</p>
 <p>打开<code>MyBlog\themes\matery\layout\census.ejs</code>文件，将百度统计中的数据填入源代码中，修改代码如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518210629.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518210629.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518210629.png"></a>
+
 <h4 id="11-仿Windows个性化"><a href="#11-仿Windows个性化" class="headerlink" title="11. 仿Windows个性化"></a>11. 仿Windows个性化</h4><p>仿Windows页面是采用<a target="_blank" rel="noopener" href="https://ylui.yuri2.cn/">YLUI</a>实现的，YLUI提供了社区版本供大家学习使用，具体效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211817.png"></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211817.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518211817.png"></a>
+
 <p>大家可以查看YLUI官方的<a target="_blank" rel="noopener" href="https://github.com/yuri2peter/ylui/tree/master/documents">开发文档</a>进行开发，有不懂的可以加官方的QQ群：<code>191372634</code> 进行讨论。</p>
 <h4 id="12-博客动漫风格背景图"><a href="#12-博客动漫风格背景图" class="headerlink" title="12. 博客动漫风格背景图"></a>12. 博客动漫风格背景图</h4><p>因为在上一个LuckyBlog版本发布的网站风格是偏向动漫风格的，如果大家喜欢动漫风格，只需要替换以下配置即可。</p>
 <p><strong>博客每日轮播图：</strong> 以下链接图片全部下载保存到<code>MyBlog\themes\matery\source\medias\banner</code>中，以0~7.jpg的文件名格式命名即可。</p>
@@ -1013,7 +1035,7 @@ featureImages:
 <li><a target="_blank" rel="noopener" href="https://yafine-blog.cn/posts/4ab2.html">Hexo+github搭建博客(超级详细版，精细入微)</a></li>
 <li><a target="_blank" rel="noopener" href="https://blog.csdn.net/cungudafa/article/details/106278206">hexo（matery）背景、滚动条优化+增加点击跳评论</a></li>
 </ul>
-<script type="text/javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -1045,15 +1067,15 @@ featureImages:
           
             <div class="post-nepre half previous">
           
-            <a href="/posts/28347.html" rel="prev">
+            <a href="/posts/25167.html" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://api.flymc.cc/hotlink-ok/cover/87169695_p0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://api.flymc.cc/hotlink-ok/cover/87169695_p0.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://w.wallhaven.cc/full/76/wallhaven-76dx79.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://w.wallhaven.cc/full/76/wallhaven-76dx79.jpg">
               </div>
               <span class="label">
               Previous Post</span>
               <div class="info">
                 <h3>
-                Hexo之渲染绕过</h3>
+                在hexo里用思维导图</h3>
                 <hr>
               </div>
             </a>
@@ -1063,15 +1085,15 @@ featureImages:
           
             <div class="post-nepre half next">
           
-            <a href="/posts/19d2a4e6.html" rel="next">
+            <a href="/posts/28347.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://api.flymc.cc/hotlink-ok/cover/310948_bandage_breasts_candy_cleavag.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://api.flymc.cc/hotlink-ok/cover/310948_bandage_breasts_candy_cleavag.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://api.flymc.cc/hotlink-ok/cover/87169695_p0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://api.flymc.cc/hotlink-ok/cover/87169695_p0.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                阿里云服务器部署Hexo博客</h3>
+                Hexo之渲染绕过</h3>
                 <hr>
               </div>
             </a>
@@ -1151,7 +1173,7 @@ featureImages:
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -1163,10 +1185,10 @@ featureImages:
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -1191,10 +1213,11 @@ featureImages:
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
       <a href="https://icp.gov.moe/?keyword=20221028" target="_blank">萌ICP备20221028号</a>
+      <a href="#" target="_blank">京ICP备1102017518号</a>
     </div>
     <div class="footer-device">
     <p style="font-family: 'Ubuntu', sans-serif;">
-        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        <div><div class="footerMax490">本站使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/honjun/hexo-theme-sakura">Sakura<i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i></a> 作为主题 | 由 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/zh-cn/">Hexo</a> 强力驱动 | 由 Netlify <a target="_blank" rel="noopener external nofollow noreferrer" href="https://cloud.tencent.com/product/cdn">CDN</a> 提供支持</div></div>
         </span>
       </p>
     </div>
@@ -1210,7 +1233,7 @@ featureImages:
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "本站已在各路妖魔鬼怪的摧残下存活 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
       } 
       setInterval("createtime()",250);
@@ -1258,6 +1281,27 @@ featureImages:
       binft(document.getElementById('binft'));
   </script>
   </div><!-- .site-info -->
+  <div class="twopeople">
+      <div class="container" style="height:200px;">
+          <canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script>
+      <script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script>
+      <style>
+          .twopeople{
+              margin: 0;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+          }
+          canvas {
+              display: block;
+              margin: 0 auto;
+              cursor: move;
+          }
+      </style>
+  </div>
 </footer>
 
 
@@ -1351,6 +1395,14 @@ $(document).ready(function() {
   <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
     &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
 </div><!--skin.end-->
+<!-- 弹窗代码开始 -->
+<!--
+<div class="web_notice" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.3);z-index: 99999;">
+<div style="position: fixed;top: 50%;left: 50%;width: 550px;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 50px 40px;">
+<h3 style="font-weight: bold;text-align: center;font-size: 30px;
+">网站通知</h3><div style="font-size: 16px;margin-top: 26px;line-height: 30px;color: #999;
+">重大通知：本网站施工已经基本已经完成，并且站长还做了代码加速和优化，大大提升网站速度（目前支持的浏览器：Safari[推荐]；Edge；谷歌；360；qq【注意📢IE用户自行离开】</div><a style="display: block;background: #fbc02d;color: #FFF;text-align: center;font-weight: bold;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;" onclick="javascript:document.querySelector('.web_notice').remove()">我知道了</ a></div></div>-->
+<!-- 弹窗代码结束  -->
 </footer>
     
       <!--  加载动画，强制加载0.5s  -->
@@ -1793,9 +1845,9 @@ $(document).ready(function() {
   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/clickBom.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/piao.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/sakura.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Colsrch/CDN@master/judge_time/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/YQMMKINGDOM/my-live2d@main/autoload.js"></script>
   <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
   <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
   <script type="text/javascript">
@@ -1807,6 +1859,135 @@ $(document).ready(function() {
                 document.title = OriginTitile
             }, 3e3))
     })
+// 自动夜间模式
+    if (navigator.geolocation) {   //获取地理位置 用于判断日出日落时间
+        navigator.geolocation.getCurrentPosition(
+          function (position) {
+            var res = computeSunRiseSunSet(position.coords.latitude, position.coords.longitude, 8);
+            console.log(res.str)
+            adjust_time(res.strSunRise, res.strSunSet, "08:00", "12:00", "14:00", "23:00")
+          },
+          function (e) {
+            adjust_time("7:00", "17:30", "08:00", "12:00", "14:00", "23:00")  //未允许获取地理位置时，使用默认时间
+            console.log("未允许获取地理位置，使用默认配置时间")
+            throw (e.message);
+          }
+        )
+      }
+    function adjust_time(beginTime, endTime, morningTime, noonTime, afternoonTime, nightTime) {
+      const rootElement = document.documentElement;
+      var strb = beginTime.split(":");
+      if (strb.length != 2) {
+        return false;
+      }
+    
+      var stre = endTime.split(":");
+      if (stre.length != 2) {
+        return false;
+      }
+    
+      var strmorning = morningTime.split(":");   //12点
+      if (stre.length != 2) {
+        return false;
+      }
+    
+      var strnoon = noonTime.split(":");   //12点
+      if (stre.length != 2) {
+        return false;
+      }
+    
+      var strafternoon = afternoonTime.split(":");   //13点
+      if (stre.length != 2) {
+        return false;
+      }
+    
+      var strnight = nightTime.split(":");   //23点
+      if (stre.length != 2) {
+        return false;
+      }
+    
+      var b = new Date();
+      var e = new Date();
+      var n = new Date();
+      var morning = new Date();
+      var noon = new Date();
+      var afternoon = new Date();
+      var night = new Date();
+    
+      b.setHours(strb[0]);
+      b.setMinutes(strb[1]);
+      e.setHours(stre[0]);
+      e.setMinutes(stre[1]);
+      morning.setHours(strmorning[0]);
+      morning.setMinutes(strmorning[1]);
+      noon.setHours(strnoon[0]);
+      noon.setMinutes(strnoon[1]);
+      afternoon.setHours(strafternoon[0]);
+      afternoon.setMinutes(strafternoon[1]);
+      night.setHours(strnight[0]);
+      night.setMinutes(strnight[1]);
+    
+    
+      $.getJSON("https://v1.hitokoto.cn", function (hitokoto) {
+        //在这里面处理获得的数据
+        if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
+          var daytimetitle = ''
+          var daytimemessage = ''
+          if (n.getTime() - morning.getTime() < 0) {
+            // 早上
+            daytimetitle = '早安'
+          }
+          else if (n.getTime() - noon.getTime() < 0) {
+            // 上午
+            daytimetitle = '上午好'
+          }
+          else if (n.getTime() - afternoon.getTime() < 0) {
+            // 中午
+            daytimetitle = '中午好'
+            daytimemessage = '<br>要注意休息哦~'
+          }
+          else {
+            // 下午
+            daytimetitle = '下午好'
+          }
+          // 判断是否已经开启夜间模式
+          if (rootElement.getAttribute('data-user-color-scheme', 'dark')) {
+            // 已开启夜间模式，修改按钮状态
+            $.message({ title: '操作通知', message: daytimetitle + '，已自动为您切换为日间模式。<br>' + hitokoto.hitokoto + daytimemessage, type: 'success' });
+            const mode = toggleCustomDarkMode();
+            applyCustomDarkModeSettings(mode);
+          }
+          else {
+            // 未开启夜间模式，不执行操作
+            $.message({ title: daytimetitle, message: hitokoto.hitokoto + daytimemessage, type: 'info' });
+            return true;
+          }
+        } else {
+          // 晚上
+          var nighttitle = ''
+          var nightmessage = ''
+          if (night.getTime() - n.getTime() < 0 || n.getTime() - b.getTime() < 0) {
+            nighttitle = '夜深了'
+            nightmessage = '<br>该睡觉啦~'
+          }
+          else {
+            nighttitle = '晚上好'
+            nightmessage = '<br>吃晚饭了吗？要注意眼睛哦。'
+          }
+          // 判断是否已经开启夜间模式
+          if (rootElement.getAttribute('data-user-color-scheme', 'dark')) {
+            // 已开启夜间模式，不执行操作
+            $.message({ title: nighttitle, message: hitokoto.hitokoto + nightmessage, type: 'info' });
+            return true;
+          }
+          else {
+            // 未开启夜间模式，修改按钮状态
+            $.message({ title: '操作通知', message: nighttitle + '，已自动为您切换为夜间模式。<br>' + hitokoto.hitokoto + nightmessage, type: 'success' });
+            const mode = toggleCustomDarkMode();
+            applyCustomDarkModeSettings(mode);
+          }
+        }
+      });
+    }
 </script>
-</body>
-</html>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
