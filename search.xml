@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>在hexo插入ppt的测试文档</title>
+      <link href="/posts/30884.html"/>
+      <url>/posts/30884.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><iframe src="http://ow365.cn/owview/p/pv.aspx?PowerPointView=ReadingView&amp;WOPISrc=http%3A%2F%2Foosh%2Fwopi%2Ffiles%2F%40%2Fwopi%3FvId%3DcRjyCiBJzNGC309A1yQ1IA--&amp;bs=Z2l0bGFiLmNvbS40NDNc5YS*56ul6IqC5b_r5LmQUFBULnBwdHg-&amp;token=FgAyD8uE7VLyF2TDPL2DKfvgV4LTz5HU&amp;cancopy=" width="100%" height="500" name="topFrame" scrolling="yes" noresize="noresize" frameborder="0" id="topFrame"></iframe><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo（sakura）设置私密文章</title>
       <link href="/posts/64683.html"/>
       <url>/posts/64683.html</url>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Server</title>
+    <script src="../../../res/yl.app.js"></script>
+    <style>
+        body{background-color: white}
+    </style>
+</head>
+<body>
+    <h1>Server</h1>
+    <script>
+        YLApp.onReady(function () {
+            var json=
+
+            YLApp.eval('import',null,function (data) {
+                console.log(YLApp.id,data)
+            })
+        })
+    </script>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
