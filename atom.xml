@@ -6,7 +6,7 @@
   <link href="https://kingwdy.avosapps.us/atom.xml" rel="self"/>
   
   <link href="https://kingwdy.avosapps.us/"/>
-  <updated>2022-05-30T05:41:19.207Z</updated>
+  <updated>2022-05-31T05:35:18.543Z</updated>
   <id>https://kingwdy.avosapps.us/</id>
   
   <author>
@@ -15,6 +15,456 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>YLUI高级特性</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:35:18.543Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI前言</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:20:56.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI全局配置</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:20:55.264Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存档数据——应用程序池</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:41:15.365Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存档数据——桌面图标</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:41:50.201Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存储数据——窗体数据。</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:42:04.784Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存储数——数据配置</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:41:28.189Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存储数——据磁贴</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:40:58.724Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存储数——数据概念</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:40:45.464Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI存储数——开始菜单</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:40:21.967Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI更新日志</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:39:57.747Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI全局API</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:20:53.561Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI安装</title>
+    <link href="https://kingwdy.avosapps.us/posts/48201.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48201.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:37:13.088Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI目录结构</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:37:47.092Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI窗体通信</title>
+    <link href="https://kingwdy.avosapps.us/posts/60349.html"/>
+    <id>https://kingwdy.avosapps.us/posts/60349.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:42:40.516Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI窗体API</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:42:23.800Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI运行流程</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:20:50.804Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YLUI说明</title>
+    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
+    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <published>2022-05-31T04:18:00.000Z</published>
+    <updated>2022-05-31T05:34:22.877Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    
+  </entry>
   
   <entry>
     <title>在hexo插入ppt的测试文档</title>
@@ -65,520 +515,6 @@
     <category term="博客优化" scheme="https://kingwdy.avosapps.us/tags/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/"/>
     
     <category term="文章加密" scheme="https://kingwdy.avosapps.us/tags/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LPL比赛数据可视化</title>
-    <link href="https://kingwdy.avosapps.us/posts/62019.html"/>
-    <id>https://kingwdy.avosapps.us/posts/62019.html</id>
-    <published>2022-05-26T00:18:00.000Z</published>
-    <updated>2022-05-26T01:59:45.231Z</updated>
-    
-    
-    <summary type="html">密码：123456</summary>
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="LPL" scheme="https://kingwdy.avosapps.us/tags/LPL/"/>
-    
-    <category term="数据可视化" scheme="https://kingwdy.avosapps.us/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-    <category term="html" scheme="https://kingwdy.avosapps.us/tags/html/"/>
-    
-    <category term="css" scheme="https://kingwdy.avosapps.us/tags/css/"/>
-    
-    <category term="javascript" scheme="https://kingwdy.avosapps.us/tags/javascript/"/>
-    
-    <category term="jQuery" scheme="https://kingwdy.avosapps.us/tags/jQuery/"/>
-    
-    <category term="python" scheme="https://kingwdy.avosapps.us/tags/python/"/>
-    
-    <category term="requests" scheme="https://kingwdy.avosapps.us/tags/requests/"/>
-    
-    <category term="numpy" scheme="https://kingwdy.avosapps.us/tags/numpy/"/>
-    
-    <category term="mysql" scheme="https://kingwdy.avosapps.us/tags/mysql/"/>
-    
-    <category term="pymysql" scheme="https://kingwdy.avosapps.us/tags/pymysql/"/>
-    
-    <category term="json" scheme="https://kingwdy.avosapps.us/tags/json/"/>
-    
-    <category term="ajax" scheme="https://kingwdy.avosapps.us/tags/ajax/"/>
-    
-    <category term="flask" scheme="https://kingwdy.avosapps.us/tags/flask/"/>
-    
-    <category term="echarts" scheme="https://kingwdy.avosapps.us/tags/echarts/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于hexo博客的note标签美化</title>
-    <link href="https://kingwdy.avosapps.us/posts/4901.html"/>
-    <id>https://kingwdy.avosapps.us/posts/4901.html</id>
-    <published>2022-05-25T12:29:00.000Z</published>
-    <updated>2022-05-25T23:01:06.539Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
-    
-    <category term="博客优化" scheme="https://kingwdy.avosapps.us/tags/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/"/>
-    
-    <category term="note标签" scheme="https://kingwdy.avosapps.us/tags/note%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于WEBP图像</title>
-    <link href="https://kingwdy.avosapps.us/posts/25797.html"/>
-    <id>https://kingwdy.avosapps.us/posts/25797.html</id>
-    <published>2022-05-25T04:49:00.000Z</published>
-    <updated>2022-05-29T05:35:25.908Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="网站分享" scheme="https://kingwdy.avosapps.us/tags/%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
-    
-    <category term="图像处理" scheme="https://kingwdy.avosapps.us/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
-    
-    <category term="WEBP" scheme="https://kingwdy.avosapps.us/tags/WEBP/"/>
-    
-    <category term="转换" scheme="https://kingwdy.avosapps.us/tags/%E8%BD%AC%E6%8D%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO-admin安装和使用（汉化版）</title>
-    <link href="https://kingwdy.avosapps.us/posts/27498.html"/>
-    <id>https://kingwdy.avosapps.us/posts/27498.html</id>
-    <published>2022-05-24T02:27:00.000Z</published>
-    <updated>2022-05-25T12:51:50.711Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
-    
-    <category term="插件" scheme="https://kingwdy.avosapps.us/tags/%E6%8F%92%E4%BB%B6/"/>
-    
-    <category term="npm" scheme="https://kingwdy.avosapps.us/tags/npm/"/>
-    
-    <category term="教程" scheme="https://kingwdy.avosapps.us/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="汉化" scheme="https://kingwdy.avosapps.us/tags/%E6%B1%89%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于游戏加速器（Steam++）</title>
-    <link href="https://kingwdy.avosapps.us/posts/29462.html"/>
-    <id>https://kingwdy.avosapps.us/posts/29462.html</id>
-    <published>2022-05-24T02:03:00.000Z</published>
-    <updated>2022-05-29T05:44:13.611Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="加速器" scheme="https://kingwdy.avosapps.us/tags/%E5%8A%A0%E9%80%9F%E5%99%A8/"/>
-    
-    <category term="应用分享" scheme="https://kingwdy.avosapps.us/tags/%E5%BA%94%E7%94%A8%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于新添加的游戏板块一事</title>
-    <link href="https://kingwdy.avosapps.us/posts/11908.html"/>
-    <id>https://kingwdy.avosapps.us/posts/11908.html</id>
-    <published>2022-05-23T12:16:00.000Z</published>
-    <updated>2022-05-29T05:36:34.358Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="https://kingwdy.avosapps.us/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="游戏板块" scheme="https://kingwdy.avosapps.us/tags/%E6%B8%B8%E6%88%8F%E6%9D%BF%E5%9D%97/"/>
-    
-    <category term="声明" scheme="https://kingwdy.avosapps.us/tags/%E5%A3%B0%E6%98%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费在线抠图网站分享</title>
-    <link href="https://kingwdy.avosapps.us/posts/51618.html"/>
-    <id>https://kingwdy.avosapps.us/posts/51618.html</id>
-    <published>2022-05-23T04:11:00.000Z</published>
-    <updated>2022-05-29T05:38:11.637Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="网站分享" scheme="https://kingwdy.avosapps.us/tags/%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
-    
-    <category term="好物推荐" scheme="https://kingwdy.avosapps.us/tags/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/"/>
-    
-    <category term="图像处理" scheme="https://kingwdy.avosapps.us/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于未来本博客的发展</title>
-    <link href="https://kingwdy.avosapps.us/posts/27604.html"/>
-    <id>https://kingwdy.avosapps.us/posts/27604.html</id>
-    <published>2022-05-22T08:06:21.000Z</published>
-    <updated>2022-05-22T08:19:22.470Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="随想" scheme="https://kingwdy.avosapps.us/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-    <category term="声明" scheme="https://kingwdy.avosapps.us/tags/%E5%A3%B0%E6%98%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>歌评《lovely》</title>
-    <link href="https://kingwdy.avosapps.us/posts/25381.html"/>
-    <id>https://kingwdy.avosapps.us/posts/25381.html</id>
-    <published>2022-05-22T02:53:19.000Z</published>
-    <updated>2022-05-25T12:54:01.684Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="https://kingwdy.avosapps.us/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="音乐" scheme="https://kingwdy.avosapps.us/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="评价" scheme="https://kingwdy.avosapps.us/tags/%E8%AF%84%E4%BB%B7/"/>
-    
-    <category term="Billie Eilish" scheme="https://kingwdy.avosapps.us/tags/Billie-Eilish/"/>
-    
-    <category term="流行音乐" scheme="https://kingwdy.avosapps.us/tags/%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura(转载)</title>
-    <link href="https://kingwdy.avosapps.us/posts/22338.html"/>
-    <id>https://kingwdy.avosapps.us/posts/22338.html</id>
-    <published>2022-05-20T08:19:01.000Z</published>
-    <updated>2022-05-29T05:40:49.414Z</updated>
-    
-    
-    <summary type="html">hexo-sakura主题使用教程</summary>
-    
-    
-    
-    <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="web" scheme="https://kingwdy.avosapps.us/tags/web/"/>
-    
-    <category term="悦读" scheme="https://kingwdy.avosapps.us/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小破站av号BV号转换</title>
-    <link href="https://kingwdy.avosapps.us/posts/22294.html"/>
-    <id>https://kingwdy.avosapps.us/posts/22294.html</id>
-    <published>2022-05-20T07:14:28.000Z</published>
-    <updated>2022-05-25T12:53:02.201Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="工具箱" scheme="https://kingwdy.avosapps.us/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    
-    <category term="代码分享" scheme="https://kingwdy.avosapps.us/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随机图片API</title>
-    <link href="https://kingwdy.avosapps.us/posts/38811.html"/>
-    <id>https://kingwdy.avosapps.us/posts/38811.html</id>
-    <published>2022-05-20T06:32:05.000Z</published>
-    <updated>2022-05-29T05:41:21.614Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="API图片" scheme="https://kingwdy.avosapps.us/tags/API%E5%9B%BE%E7%89%87/"/>
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fontawesome 图标样例</title>
-    <link href="https://kingwdy.avosapps.us/posts/20692.html"/>
-    <id>https://kingwdy.avosapps.us/posts/20692.html</id>
-    <published>2022-05-18T23:55:53.000Z</published>
-    <updated>2022-05-20T08:26:44.007Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="Fontawesome 图标" scheme="https://kingwdy.avosapps.us/tags/Fontawesome-%E5%9B%BE%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于蚊子</title>
-    <link href="https://kingwdy.avosapps.us/posts/50391.html"/>
-    <id>https://kingwdy.avosapps.us/posts/50391.html</id>
-    <published>2022-05-18T22:48:49.000Z</published>
-    <updated>2022-05-29T05:50:12.379Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="随想" scheme="https://kingwdy.avosapps.us/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-    <category term="蚊子" scheme="https://kingwdy.avosapps.us/tags/%E8%9A%8A%E5%AD%90/"/>
-    
-    <category term="生物" scheme="https://kingwdy.avosapps.us/tags/%E7%94%9F%E7%89%A9/"/>
-    
-    <category term="百科" scheme="https://kingwdy.avosapps.us/tags/%E7%99%BE%E7%A7%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown使用指南</title>
-    <link href="https://kingwdy.avosapps.us/posts/19324.html"/>
-    <id>https://kingwdy.avosapps.us/posts/19324.html</id>
-    <published>2022-05-17T06:17:17.000Z</published>
-    <updated>2022-05-29T05:43:16.010Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Markdown" scheme="https://kingwdy.avosapps.us/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>多种方法在Markdown加入上划线、中划线、下划线</title>
-    <link href="https://kingwdy.avosapps.us/posts/38332.html"/>
-    <id>https://kingwdy.avosapps.us/posts/38332.html</id>
-    <published>2022-05-17T02:05:00.000Z</published>
-    <updated>2022-05-29T05:43:49.497Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术 - Markdown语法教程" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF-Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>利用 Gulp 来压缩你的 Hexo 博客</title>
-    <link href="https://kingwdy.avosapps.us/posts/5560.html"/>
-    <id>https://kingwdy.avosapps.us/posts/5560.html</id>
-    <published>2022-05-17T01:44:00.000Z</published>
-    <updated>2022-05-29T05:45:38.520Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://kingwdy.avosapps.us/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="hexo" scheme="https://kingwdy.avosapps.us/tags/hexo/"/>
-    
-    <category term="npm" scheme="https://kingwdy.avosapps.us/tags/npm/"/>
-    
-    <category term="blog" scheme="https://kingwdy.avosapps.us/tags/blog/"/>
-    
-    <category term="代码压缩" scheme="https://kingwdy.avosapps.us/tags/%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PicGo+GitHub 图床搭建</title>
-    <link href="https://kingwdy.avosapps.us/posts/7a46f93c.html"/>
-    <id>https://kingwdy.avosapps.us/posts/7a46f93c.html</id>
-    <published>2022-05-16T10:15:04.000Z</published>
-    <updated>2022-05-29T05:48:04.462Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="https://kingwdy.avosapps.us/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="PicGo" scheme="https://kingwdy.avosapps.us/tags/PicGo/"/>
-    
-    <category term="GitHub图床" scheme="https://kingwdy.avosapps.us/tags/GitHub%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
