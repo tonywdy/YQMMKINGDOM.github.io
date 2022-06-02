@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">YLUI说明 | KINGWDYの博客</title>
+  <title itemprop="name">YLUI窗体API | KINGWDYの博客</title>
   
     <link rel="shortcut icon" href="https://i.postimg.cc/xT7tgjWb/5-11.gif">
   
@@ -190,9 +190,9 @@
     loaded();
 })()
  </script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
-
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+</head>
 
 <style type="text/css">
   .uk-alert {
@@ -588,6 +588,16 @@
                 
               </li>
             
+              <li>
+                <a href="/laboratory/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-eyedropper" aria-hidden="true"></i>
+                    实
+                  </span>
+                </a>
+                
+              </li>
+            
           </ul>
         </nav>
       </div>
@@ -610,11 +620,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://view.moezx.cc/images/2019/05/27/Konachan.com20-2027935220sample.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://view.moezx.cc/images/2019/05/27/Konachan.com20-2027935220sample.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://view.moezx.cc/images/2022/05/31/06d9f9250d4e9b0cc72aae9625d53a4b.png);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://view.moezx.cc/images/2022/05/31/06d9f9250d4e9b0cc72aae9625d53a4b.png">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      YLUI说明</h1>
+      YLUI窗体API</h1>
       <p class="entry-census">
         <span>
           <a href="">
@@ -642,50 +652,287 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h1 id="YLUI"><a href="#YLUI" class="headerlink" title="YLUI"></a>YLUI</h1><a target="_blank" rel="noopener" href="https://s2.ax1x.com/2019/01/31/k1MVLd.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://s2.ax1x.com/2019/01/31/k1MVLd.png"></a>
-
-<p>YLUI是一款纯前端框架，是对WEB桌面UI的一个大胆尝试。</p>
-<p>它凝聚了作者近一年的心血，作为<a target="_blank" rel="noopener" href="http://win10ui.yuri2.cn/">WIN10UI</a>开源项目的升级版，承载了作者对WEB桌面设计风格的追求。</p>
-<p>在前端技术日新月异的背景下，YLUI力图提供一种新的web应用组织形式。</p>
-<p>如果你正在寻找一个漂亮的UI组件库，你应该选择bootstrap,layui,element-ui等项目。而你想要让这些应用建立联系，构成组织，并提供一个统一的门户，那么YLUI将会是一个不错的选择。</p>
+          <h2 id="窗体API"><a href="#窗体API" class="headerlink" title="窗体API"></a>窗体API</h2><p>窗体API指窗体在运行过程中可以使用的API，得益于YLUI精巧的设计，跨域的窗体也能实现一些强大的功能。</p>
 <blockquote>
-<p>YLUI提供的是应用组织框架，而不是应用开发工具，更不要因为它长得像浏览器就把它当浏览器使用，毕竟我们已经有太多浏览器可供选择了，不是吗？</p>
+<p>对于同域的窗体，可以使用<code>parent.window</code>来获取父窗体（YLUI主体）的所有全局对象，自然也就可以为所欲为。但是我们依然推荐开发者使用YLUI的窗体API模式，来获取更安全、更低耦合的开发体验。</p>
 </blockquote>
-<blockquote>
-<p>注意，这不是一个免费软件，请仔细阅读版权声明信息<code>Lisense.txt</code></p>
-</blockquote>
-<h3 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h3><h4 id="http-server预览（推荐）"><a href="#http-server预览（推荐）" class="headerlink" title="http-server预览（推荐）"></a>http-server预览（推荐）</h4><p>需要已安装Node.js+npm环境。</p>
-<p>在项目目录输入命令：</p>
-<pre><code>npm ci
-npm start
-</code></pre>
-<p>访问网址，默认：<a target="_blank" rel="noopener" href="http://localhost:5000/">http://localhost:5000</a></p>
-<h4 id="借助web服务环境"><a href="#借助web服务环境" class="headerlink" title="借助web服务环境"></a>借助web服务环境</h4><p>将代码部署至您的web服务目录，如nginx、apache服务器的www目录下，访问对应网址（如<code>http://127.0.0.1/ylui/</code>）。</p>
-<blockquote>
-<p>更多使用说明，请参阅本地文档<code>/documents</code>或<a target="_blank" rel="noopener" href="https://github.com/yuri2peter/ylui/tree/master/documents">在线文档</a>。</p>
-</blockquote>
-<h3 id="特色"><a href="#特色" class="headerlink" title="特色"></a>特色</h3><ul>
-<li>纯前端实现，高兼容性</li>
-<li>延续windows界面操作逻辑，普通用户上手难度较低</li>
-<li>简单直观的多APP管理，像桌面程序一样呈现你的web应用</li>
-<li>统一的APP交互模型，保持各APP之间的独立性，降低子系统耦合度，支持跨域的APP通信</li>
-<li>完美复刻桌面操作系统的菜单、磁贴、通知元素，良好的视觉表现力</li>
-<li>兼容PC、平板电脑、手机等各大主流分辨率</li>
-<li>可视化开发，降低开发者的学习难度</li>
-<li>基于VUE.JS开发，支持数据序列化（可配置化），方便与后台做数据存取接口</li>
-<li>详尽的开发文档</li>
+<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>首先要使用 窗体API ，我们需要在窗体页面引入js文件：<code>/res/yl.app.js</code>，你可以将这个文件放置在其他位置，只要能正确加载到即可。</p>
+<p>没错，对于最基本的使用，只需要加载yl.app.js文件，你甚至不需要写其他代码。</p>
+<h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><p>成功接入窗体API 后，窗体将获得以下特性</p>
+<ul>
+<li>支持在YLUI的地址栏中前进后退</li>
+<li>支持F5刷新窗体而不是整个页面</li>
+<li>直接获取同域的，其他子窗体的window对象</li>
+<li>检测窗体是否运行于YLUI框架下，如果是，触发回调</li>
+<li>窗体通信（高级）</li>
 </ul>
-<h3 id="推荐使用场景"><a href="#推荐使用场景" class="headerlink" title="推荐使用场景"></a>推荐使用场景</h3><ol>
-<li>个人云桌面</li>
-<li>企业办公平台</li>
-<li>云盘类应用</li>
-<li>中大型管理信息系统</li>
-<li>导航门户网站</li>
-<li>H5打包应用</li>
-<li>web开发工程师个人工具集</li>
-</ol>
-<h3 id="当前版本"><a href="#当前版本" class="headerlink" title="当前版本"></a>当前版本</h3><p>2.1.20</p>
-<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><p><a target="_blank" rel="noopener" href="https://ylui.yuri2.cn/">YLUI官网</a> | <a target="_blank" rel="noopener" href="https://github.com/yuri2peter/ylui">GITHUB</a> | <a target="_blank" rel="noopener" href="http://www.bycodes.net/">码外社区</a> | <a target="_blank" rel="noopener" href="https://jq.qq.com/?_wv=1027&amp;k=5fAsios">官方交流群</a></p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/yuri2peter/ylui@master/documents/assets/6.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/yuri2peter/ylui@master/documents/assets/6.png"></a>
+
+<hr>
+<h3 id="YLApp-id"><a href="#YLApp-id" class="headerlink" title="YLApp.id"></a>YLApp.id</h3><p>每个窗体被打开，YLUI都会为它分配一个id。子窗口通过<code>YLApp.id</code>可以获取。</p>
+<p>如果获取后为空，可能是当前APP不是运行在YLUI下，或尚未初始化。</p>
+<h3 id="YLApp-data"><a href="#YLApp-data" class="headerlink" title="YLApp.data"></a>YLApp.data</h3><p>data是这个窗体在被创造时赋予的数据，常被用于窗体通信。</p>
+<blockquote>
+<p>例如，通过这个窗体a新建一个窗体b，可以为b的data赋值<code>parent:a的id</code>来标记创建者。</p>
+</blockquote>
+<h3 id="YLApp-open-url"><a href="#YLApp-open-url" class="headerlink" title="YLApp.open(url)"></a>YLApp.open(url)</h3><p><em>url string 打开新窗体的url地址</em></p>
+<p>立即在YLUI中打开一个新窗口。此处参数只有一个url，简单而常用的一个API。</p>
+<blockquote>
+<p>可以替代传统的a标签打开新窗口。</p>
+</blockquote>
+<h3 id="YLApp-onEvent-cb"><a href="#YLApp-onEvent-cb" class="headerlink" title="YLApp.onEvent(cb)"></a>YLApp.onEvent(cb)</h3><p><em>cb function 回调函数</em></p>
+<p>接受到YLUI事件时触发，cb为事件处理函数（高级）。</p>
+<p>YLUI主体会广播一些公共事件，它们分别为</p>
+<ul>
+<li>dataChanged 存档数据已被用户变更（监听此事件，上传用户的最新存档数据至你的数据库）</li>
+<li>open 某窗体被打开</li>
+<li>close 某窗体被关闭</li>
+<li>desktopMouseMove 桌面鼠标移动</li>
+<li>desktopMouseDown 桌面鼠标按下</li>
+<li>desktopMouseUp 桌面鼠标抬起</li>
+<li>desktopClick 桌面鼠标点击</li>
+<li>resize 主窗体尺寸改变</li>
+</ul>
+<blockquote>
+<p> 未来会加入更多公共事件</p>
+</blockquote>
+<p>###YLApp.getWinObject(id)</p>
+<p><em>id string 目标窗体id</em></p>
+<p><em>return window object</em></p>
+<p>获取指定窗体的window对象，仅在同域有效。</p>
+<h3 id="YLApp-onEvent-cb-1"><a href="#YLApp-onEvent-cb-1" class="headerlink" title="YLApp.onEvent(cb)"></a>YLApp.onEvent(cb)</h3><p><em>cb function 回调函数</em></p>
+<p>接受到YLUI事件时触发，cb为事件处理函数（高级）。</p>
+<h3 id="YLApp-emit-event-data-target"><a href="#YLApp-emit-event-data-target" class="headerlink" title="YLApp.emit(event,data,target)"></a>YLApp.emit(event,data,target)</h3><p><em>event string 事件名</em></p>
+<p><em>data mixed 数据</em></p>
+<p><em>target string|array|true 广播对象</em></p>
+<p>发送一个事件。其中。如果target是string类型，表示发送给对应id的窗口；如果target是数组，表示发送给数组中所有id对应的窗体；如果target为true，表示发送给所有窗体。</p>
+<blockquote>
+<p>特别的，YLUI主体的id为0。</p>
+</blockquote>
+<hr>
+<h3 id="YLApp-eval-method-data-cb"><a href="#YLApp-eval-method-data-cb" class="headerlink" title="YLApp.eval(method,data, cb)"></a>YLApp.eval(method,data, cb)</h3><p><em>method string 方法名</em></p>
+<p><em>data mixed 数据</em></p>
+<p><em>cb function 回调函数</em></p>
+<p>主动向YLUI发布指令或请求数据，完成后触发回调，请求结果会传递到回调函数的第一个参数上。</p>
+<h4 id="YLUI提供了很多方法可供窗体使用，它们统一使用YLApp-eval的形式。"><a href="#YLUI提供了很多方法可供窗体使用，它们统一使用YLApp-eval的形式。" class="headerlink" title="YLUI提供了很多方法可供窗体使用，它们统一使用YLApp.eval的形式。"></a>YLUI提供了很多方法可供窗体使用，它们统一使用<code>YLApp.eval</code>的形式。</h4><blockquote>
+<p>参数为id的方法，如果id为空，则默认是当前窗体的id</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>method</th>
+<th>data</th>
+<th>return</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>getID</td>
+<td></td>
+<td>int</td>
+<td>返回YLUI的一个id流水号</td>
+</tr>
+<tr>
+<td>getVersion</td>
+<td></td>
+<td>string</td>
+<td>返回YLUI的当前版本</td>
+</tr>
+<tr>
+<td>historyBack</td>
+<td>string id</td>
+<td></td>
+<td>指定id窗体后退</td>
+</tr>
+<tr>
+<td>historyBackAvailable</td>
+<td>string id</td>
+<td>bool</td>
+<td>指定id窗体是否可以后退</td>
+</tr>
+<tr>
+<td>historyForward</td>
+<td>string id</td>
+<td></td>
+<td>指定id窗体前进</td>
+</tr>
+<tr>
+<td>historyForwardAvailable</td>
+<td>string id</td>
+<td>bool</td>
+<td>指定id窗体是否可以前进</td>
+</tr>
+<tr>
+<td>refresh</td>
+<td>string id</td>
+<td></td>
+<td>刷新指定id窗体</td>
+</tr>
+<tr>
+<td>setWinData</td>
+<td>object data</td>
+<td></td>
+<td>设置当前窗体的数据</td>
+</tr>
+<tr>
+<td>getWinData</td>
+<td></td>
+<td>object</td>
+<td>获取当前窗体的数据</td>
+</tr>
+<tr>
+<td>setWallpaper</td>
+<td>string urlImg</td>
+<td></td>
+<td>设置壁纸为urlImg图片</td>
+</tr>
+<tr>
+<td>setThemeColor</td>
+<td>string color</td>
+<td></td>
+<td>设置主题色</td>
+</tr>
+<tr>
+<td>getConfigs</td>
+<td></td>
+<td>object</td>
+<td>获取配置</td>
+</tr>
+<tr>
+<td>getRuntime</td>
+<td></td>
+<td>object</td>
+<td>获取运行时数据</td>
+</tr>
+<tr>
+<td>open</td>
+<td>object|array data</td>
+<td>string</td>
+<td>打开窗体，返回窗体id。具体调用方式参看<code>7.1全局API YL.open</code>，其中，data为array对应了<code>YL.open</code>两个参数的用法</td>
+</tr>
+<tr>
+<td>close</td>
+<td>string id</td>
+<td></td>
+<td>关闭指定id的窗体，如果未指定id，关闭本窗体</td>
+</tr>
+<tr>
+<td>minimize</td>
+<td>string id</td>
+<td></td>
+<td>最小化指定id的窗体</td>
+</tr>
+<tr>
+<td>maximize</td>
+<td>string id</td>
+<td></td>
+<td>最大化指定id的窗体</td>
+</tr>
+<tr>
+<td>hide</td>
+<td>string id</td>
+<td></td>
+<td>隐藏指定id的窗体</td>
+</tr>
+<tr>
+<td>show</td>
+<td>string id</td>
+<td></td>
+<td>显示指定id的窗体</td>
+</tr>
+<tr>
+<td>restore</td>
+<td>string id</td>
+<td></td>
+<td>还原指定id的窗体</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>array data</td>
+<td></td>
+<td>推送消息。data[0]为标题，data[1]为正文</td>
+</tr>
+<tr>
+<td>simpleMsg</td>
+<td>string data</td>
+<td></td>
+<td>发送简单的文本提示信息</td>
+</tr>
+<tr>
+<td>setAppBadge</td>
+<td>array|string|int data</td>
+<td>bool</td>
+<td>设置APP的角标值；如果data为数组，data[0]为角标值，data[1]为APP id；如果data为数字或字符串，设置窗口所属APP的角标为data；返回操作是否成功</td>
+</tr>
+<tr>
+<td>getAppVersion</td>
+<td>string id</td>
+<td>string</td>
+<td>返回指定id窗体或当前窗体所属APP的版本号</td>
+</tr>
+<tr>
+<td>uninstall</td>
+<td>string|array data</td>
+<td></td>
+<td>卸载应用。data为string卸载指定id的应用，data为array卸载多个应用</td>
+</tr>
+<tr>
+<td>import</td>
+<td>object data</td>
+<td></td>
+<td>【需要受信任APP权限】导入数据，重载YLUI</td>
+</tr>
+<tr>
+<td>export</td>
+<td></td>
+<td>object</td>
+<td>【需要受信任APP权限】导出YLUI存档数据</td>
+</tr>
+<tr>
+<td>eval</td>
+<td>string data</td>
+<td></td>
+<td>【需要受信任APP权限】在YLUI主体执行eval</td>
+</tr>
+<tr>
+<td>setup</td>
+<td>object data</td>
+<td></td>
+<td>安装。见下文</td>
+</tr>
+</tbody></table>
+<h4 id="setup"><a href="#setup" class="headerlink" title="setup"></a>setup</h4><p>setup是比较复杂而强大的指令，可以为YLUI动态添加APP和快捷方式。利用它你可以很快打造出一个YLUI应用商店。</p>
+<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/yuri2peter/ylui@master/documents/assets/7.png" data-fancybox="images" data-caption="主人没有描述我哦~"><img src="https://cdn.jsdelivr.net/gh/yuri2peter/ylui@master/documents/assets/7.png"></a>
+
+
+
+<p>data 的数据结构如下。其中，每一项不是必须存在的（比如只想添加图标不想添加磁贴，则可以省去tiles属性）。</p>
+<pre><code>{
+    apps:{...},
+    shortcuts:[...],
+    sidebar:[...],
+    tiles:[...],
+    menu:{...},
+}
+</code></pre>
+<ul>
+<li><p>apps 需要传入多个新增/修改app的数据结构，形如<code>{my_app1_id:{my app1 data ...},my_app2_id:{my app2 data ...}}</code>。</p>
+<blockquote>
+<p>APP的数据格式可以参阅<code>6.3应用程序池</code>。</p>
+</blockquote>
+</li>
+<li><p>shortcuts 需要新增的多个桌面图标数据，形如<code>[{data1 ...},'my_app2_id']</code>，相当于调用了<code>YL.addShortcut</code>函数。</p>
+</li>
+<li><p>sidebar 需要新增的多个侧边栏按钮的数据，形如<code>[{data1 ...},'my_app2_id']</code>，相当于调用了<code>YL.addSidebarBtn</code>函数。</p>
+</li>
+<li><p>tiles 需要新增的多个磁贴的数据，形如<code>[{data1 ...},'my_app2_id']</code>，相当于调用了<code>YL.addTile</code>函数。</p>
+</li>
+<li><p>menu 需要新增的多个菜单项的数据，形如<code>{item1_id:{item1_data ...},item2_id:{item2_data ...}}</code>。</p>
+<blockquote>
+<p>注意菜单项的id不能与其他项重复。菜单项的数据格式可以参阅<code>6.6开始菜单</code>。</p>
+</blockquote>
+</li>
+</ul>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
         </div>
         <!-- .entry-content -->
@@ -1509,6 +1756,16 @@ $(document).ready(function() {
         
       </li>
     
+      <li>
+        <a href="/laboratory/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-eyedropper" aria-hidden="true"></i>
+            实
+          </span>
+        </a>
+        
+      </li>
+    
   </ul>
   <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
 </div>
@@ -1583,6 +1840,7 @@ $(document).ready(function() {
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/clickBom.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/sakura.js"></script>
+  <script src="//code.tidio.co/ui0nzweibci2p2yysjqeuk9mwh03zpq4.js" async></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Colsrch/CDN@master/judge_time/js.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/YQMMKINGDOM/my-live2d@main/autoload.js"></script>
   <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
