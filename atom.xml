@@ -3,11 +3,11 @@
   <title>KINGWDYの博客</title>
   
   <subtitle>KINGWDYの博客</subtitle>
-  <link href="https://kingwdy.avosapps.us/atom.xml" rel="self"/>
+  <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
-  <link href="https://kingwdy.avosapps.us/"/>
-  <updated>2022-06-02T06:05:28.767Z</updated>
-  <id>https://kingwdy.avosapps.us/</id>
+  <link href="https://kwblog.netlify.app/"/>
+  <updated>2022-06-06T05:59:40.082Z</updated>
+  <id>https://kwblog.netlify.app/</id>
   
   <author>
     <name>KINGWDY</name>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>回看全职高手（日更）</title>
-    <link href="https://kingwdy.avosapps.us/posts/1355.html"/>
-    <id>https://kingwdy.avosapps.us/posts/1355.html</id>
-    <published>2022-06-02T05:37:56.000Z</published>
-    <updated>2022-06-02T06:05:28.767Z</updated>
+    <title>如何更换hexo的预览端口</title>
+    <link href="https://kwblog.netlify.app/posts/23280.html"/>
+    <id>https://kwblog.netlify.app/posts/23280.html</id>
+    <published>2022-06-06T05:42:56.000Z</published>
+    <updated>2022-06-06T05:59:40.082Z</updated>
     
     
       
@@ -34,19 +34,330 @@
     
     
     
-    <category term="随笔" scheme="https://kingwdy.avosapps.us/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="动漫" scheme="https://kingwdy.avosapps.us/tags/%E5%8A%A8%E6%BC%AB/"/>
+    <category term="hexo - 端口" scheme="https://kwblog.netlify.app/tags/hexo-%E7%AB%AF%E5%8F%A3/"/>
     
-    <category term="全职高手" scheme="https://kingwdy.avosapps.us/tags/%E5%85%A8%E8%81%8C%E9%AB%98%E6%89%8B/"/>
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kwblog.netlify.app/posts/16107.html"/>
+    <id>https://kwblog.netlify.app/posts/16107.html</id>
+    <published>2022-06-06T05:34:34.827Z</published>
+    <updated>2022-06-06T05:42:04.090Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>修复 WordPress 5.1评论回复按键失效问题</title>
+    <link href="https://kwblog.netlify.app/posts/46307.html"/>
+    <id>https://kwblog.netlify.app/posts/46307.html</id>
+    <published>2022-06-06T03:58:31.000Z</published>
+    <updated>2022-06-06T04:05:09.375Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="wordpress" scheme="https://kwblog.netlify.app/tags/wordpress/"/>
+    
+    <category term="评论" scheme="https://kwblog.netlify.app/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）背景动画、壁纸、通讯栏（自定义样式）</title>
+    <link href="https://kwblog.netlify.app/posts/1905.html"/>
+    <id>https://kwblog.netlify.app/posts/1905.html</id>
+    <published>2022-06-06T02:46:34.000Z</published>
+    <updated>2022-06-06T03:56:14.424Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="javascript" scheme="https://kwblog.netlify.app/tags/javascript/"/>
+    
+    <category term="Sakura" scheme="https://kwblog.netlify.app/tags/Sakura/"/>
+    
+    <category term="动态背景动画" scheme="https://kwblog.netlify.app/tags/%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF%E5%8A%A8%E7%94%BB/"/>
+    
+    <category term="通讯栏" scheme="https://kwblog.netlify.app/tags/%E9%80%9A%E8%AE%AF%E6%A0%8F/"/>
+    
+    <category term="壁纸修改" scheme="https://kwblog.netlify.app/tags/%E5%A3%81%E7%BA%B8%E4%BF%AE%E6%94%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）主题Mashiro大佬同款LOGO修改方法</title>
+    <link href="https://kwblog.netlify.app/posts/1421.html"/>
+    <id>https://kwblog.netlify.app/posts/1421.html</id>
+    <published>2022-06-06T02:39:00.000Z</published>
+    <updated>2022-06-06T02:45:33.069Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="logo" scheme="https://kwblog.netlify.app/tags/logo/"/>
+    
+    <category term="动态logo" scheme="https://kwblog.netlify.app/tags/%E5%8A%A8%E6%80%81logo/"/>
+    
+    <category term="自定义ttf" scheme="https://kwblog.netlify.app/tags/%E8%87%AA%E5%AE%9A%E4%B9%89ttf/"/>
+    
+    <category term="可爱字体" scheme="https://kwblog.netlify.app/tags/%E5%8F%AF%E7%88%B1%E5%AD%97%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）搜索功能不能使用</title>
+    <link href="https://kwblog.netlify.app/posts/37094.html"/>
+    <id>https://kwblog.netlify.app/posts/37094.html</id>
+    <published>2022-06-06T02:34:06.000Z</published>
+    <updated>2022-06-06T02:37:48.444Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Sakura" scheme="https://kwblog.netlify.app/tags/Sakura/"/>
+    
+    <category term="搜索" scheme="https://kwblog.netlify.app/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo（sakura）自定义标签云</title>
+    <link href="https://kwblog.netlify.app/posts/30656.html"/>
+    <id>https://kwblog.netlify.app/posts/30656.html</id>
+    <published>2022-06-06T02:27:47.000Z</published>
+    <updated>2022-06-06T02:33:04.519Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="html" scheme="https://kwblog.netlify.app/tags/html/"/>
+    
+    <category term="css" scheme="https://kwblog.netlify.app/tags/css/"/>
+    
+    <category term="Sakura" scheme="https://kwblog.netlify.app/tags/Sakura/"/>
+    
+    <category term="Html" scheme="https://kwblog.netlify.app/tags/Html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为你的博客引入——今日诗词、每日一言（js插件分享）</title>
+    <link href="https://kwblog.netlify.app/posts/15097.html"/>
+    <id>https://kwblog.netlify.app/posts/15097.html</id>
+    <published>2022-06-06T02:22:33.000Z</published>
+    <updated>2022-06-06T02:26:01.589Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="每日一言" scheme="https://kwblog.netlify.app/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80/"/>
+    
+    <category term="今日诗词" scheme="https://kwblog.netlify.app/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo（sakura）引入fancybox优化图片视频查看效果</title>
+    <link href="https://kwblog.netlify.app/posts/30875.html"/>
+    <id>https://kwblog.netlify.app/posts/30875.html</id>
+    <published>2022-06-06T02:13:01.000Z</published>
+    <updated>2022-06-06T02:20:37.481Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="js" scheme="https://kwblog.netlify.app/tags/js/"/>
+    
+    <category term="javascript html" scheme="https://kwblog.netlify.app/tags/javascript-html/"/>
+    
+    <category term="hexo-sakura" scheme="https://kwblog.netlify.app/tags/hexo-sakura/"/>
+    
+    <category term="fancybox" scheme="https://kwblog.netlify.app/tags/fancybox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo（sakura）仿gitee添加文章贡献度日历图（echarts）</title>
+    <link href="https://kwblog.netlify.app/posts/47904.html"/>
+    <id>https://kwblog.netlify.app/posts/47904.html</id>
+    <published>2022-06-06T02:02:39.000Z</published>
+    <updated>2022-06-06T02:14:40.125Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="html" scheme="https://kwblog.netlify.app/tags/html/"/>
+    
+    <category term="echarts" scheme="https://kwblog.netlify.app/tags/echarts/"/>
+    
+    <category term="js" scheme="https://kwblog.netlify.app/tags/js/"/>
+    
+    <category term="sakura" scheme="https://kwblog.netlify.app/tags/sakura/"/>
+    
+    <category term="日历图" scheme="https://kwblog.netlify.app/tags/%E6%97%A5%E5%8E%86%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac设置外网访问本地项目</title>
+    <link href="https://kwblog.netlify.app/posts/22596.html"/>
+    <id>https://kwblog.netlify.app/posts/22596.html</id>
+    <published>2022-06-06T01:48:49.000Z</published>
+    <updated>2022-06-06T01:54:02.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="环境部署" scheme="https://kwblog.netlify.app/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回看全职高手（日更）</title>
+    <link href="https://kwblog.netlify.app/posts/1355.html"/>
+    <id>https://kwblog.netlify.app/posts/1355.html</id>
+    <published>2022-06-02T05:37:56.000Z</published>
+    <updated>2022-06-03T00:29:22.007Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://kwblog.netlify.app/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="动漫" scheme="https://kwblog.netlify.app/tags/%E5%8A%A8%E6%BC%AB/"/>
+    
+    <category term="全职高手" scheme="https://kwblog.netlify.app/tags/%E5%85%A8%E8%81%8C%E9%AB%98%E6%89%8B/"/>
     
   </entry>
   
   <entry>
     <title>YLUI高级特性</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
     <updated>2022-05-31T05:35:18.543Z</updated>
     
@@ -61,117 +372,17 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI全局配置</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:20:55.264Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存储数——开始菜单</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:40:21.967Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存档数据——应用程序池</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:41:15.365Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存档数据——桌面图标</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:41:50.201Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
     <title>YLUI全局API</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
     <updated>2022-05-31T05:20:53.561Z</updated>
     
@@ -186,19 +397,19 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
-    <title>YLUI存储数——数据概念</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <title>YLUI全局配置</title>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:40:45.464Z</updated>
+    <updated>2022-05-31T05:20:55.264Z</updated>
     
     
       
@@ -211,142 +422,17 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存储数——据磁贴</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:40:58.724Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存储数——数据配置</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:41:28.189Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存储数据——窗体数据。</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:42:04.784Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI目录结构</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:37:47.092Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI安装</title>
-    <link href="https://kingwdy.avosapps.us/posts/48201.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48201.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:37:13.088Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
     <title>YLUI前言</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
     <updated>2022-05-31T05:20:56.528Z</updated>
     
@@ -361,19 +447,19 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
-    <title>YLUI窗体通信</title>
-    <link href="https://kingwdy.avosapps.us/posts/60349.html"/>
-    <id>https://kingwdy.avosapps.us/posts/60349.html</id>
+    <title>YLUI存档数据——应用程序池</title>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:42:40.516Z</updated>
+    <updated>2022-05-31T05:41:15.365Z</updated>
     
     
       
@@ -386,19 +472,19 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
-    <title>YLUI更新日志</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <title>YLUI存储数——开始菜单</title>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:39:57.747Z</updated>
+    <updated>2022-05-31T05:40:21.967Z</updated>
     
     
       
@@ -411,19 +497,19 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
-    <title>YLUI说明</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <title>YLUI存档数据——桌面图标</title>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:34:22.877Z</updated>
+    <updated>2022-05-31T05:41:50.201Z</updated>
     
     
       
@@ -436,19 +522,19 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   
   <entry>
-    <title>YLUI运行流程</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
+    <title>YLUI存储数——数据概念</title>
+    <link href="https://kwblog.netlify.app/posts/48198.html"/>
+    <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:20:50.804Z</updated>
+    <updated>2022-05-31T05:40:45.464Z</updated>
     
     
       
@@ -461,56 +547,10 @@
     
     
     
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI窗体API</title>
-    <link href="https://kingwdy.avosapps.us/posts/48198.html"/>
-    <id>https://kingwdy.avosapps.us/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:42:23.800Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kingwdy.avosapps.us/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kingwdy.avosapps.us/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在hexo插入ppt的测试文档</title>
-    <link href="https://kingwdy.avosapps.us/posts/30884.html"/>
-    <id>https://kingwdy.avosapps.us/posts/30884.html</id>
-    <published>2022-05-30T05:27:44.000Z</published>
-    <updated>2022-05-30T05:41:19.207Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
+    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
     
   </entry>
   

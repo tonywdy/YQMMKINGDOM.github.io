@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>白板 | 一个在线画画的网站</title>
+    <link rel="stylesheet" href="style.6d49ecfe.css">
+</head>
+<body>
+<div class="toolsbar">
+
+    <div class="left">
+        <h1 id="logo">白板</h1>
+        <input type="color" name="" id="paintColor">
+
+        <div id="penBox"></div>
+
+        <select class="paintLineWidth" name="" id="paintLineWidth">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="8" selected="">8</option>
+            <option value="16">16</option>
+            <option value="32">32</option>
+        </select>
+
+
+    </div>
+    <div class="right">
+
+        <div class="save" id="save">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-save"></use>
+            </svg>
+        </div>
+        <div class="clear" id="clear">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-clearAll"></use>
+            </svg>
+        </div>
+    </div>
+    <div id="savePhotoBox" class="savePhotoBox">
+        <div class="title" align="center">长按图片保存
+            <svg class="icon close" aria-hidden="true" id="closeSavePhotoBox">
+                <use xlink:href="#icon-clearAll"></use>
+            </svg>
+        </div>
+        <div></div>
+    </div>
+</div>
+<canvas id="canvas"></canvas>
+<script src="main.1bf80c22.js"></script>
+<script src="https://at.alicdn.com/t/font_1999892_jr6z3t76ani.js"></script>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
