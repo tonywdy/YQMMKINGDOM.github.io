@@ -6,7 +6,7 @@
   <link href="https://kwblog.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kwblog.netlify.app/"/>
-  <updated>2022-06-06T05:59:40.082Z</updated>
+  <updated>2022-06-12T01:14:14.000Z</updated>
   <id>https://kwblog.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新型hexo后台（hexon）</title>
+    <link href="https://kwblog.netlify.app/posts/47599.html"/>
+    <id>https://kwblog.netlify.app/posts/47599.html</id>
+    <published>2022-06-12T01:14:09.000Z</published>
+    <updated>2022-06-12T01:14:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://kwblog.netlify.app/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客优化" scheme="https://kwblog.netlify.app/tags/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/"/>
+    
+    <category term="blog" scheme="https://kwblog.netlify.app/tags/blog/"/>
+    
+    <category term="he&#39;xon" scheme="https://kwblog.netlify.app/tags/he-xon/"/>
+    
+    <category term="hexon" scheme="https://kwblog.netlify.app/tags/hexon/"/>
+    
+  </entry>
   
   <entry>
     <title>如何更换hexo的预览端口</title>
@@ -510,31 +541,6 @@
     <id>https://kwblog.netlify.app/posts/48198.html</id>
     <published>2022-05-31T04:18:00.000Z</published>
     <updated>2022-05-31T05:40:45.464Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://kwblog.netlify.app/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="-YLUI" scheme="https://kwblog.netlify.app/tags/YLUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YLUI存储数——据磁贴</title>
-    <link href="https://kwblog.netlify.app/posts/48198.html"/>
-    <id>https://kwblog.netlify.app/posts/48198.html</id>
-    <published>2022-05-31T04:18:00.000Z</published>
-    <updated>2022-05-31T05:40:58.724Z</updated>
     
     
       

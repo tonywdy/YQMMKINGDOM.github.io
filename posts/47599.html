@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">itsNeko博主的绘画作品 | KINGWDYの博客</title>
+  <title itemprop="name">新型hexo后台（hexon） | KINGWDYの博客</title>
   
     <link rel="shortcut icon" href="https://i.postimg.cc/xT7tgjWb/5-11.gif">
   
@@ -637,12 +637,122 @@
   </script>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
-      <!-- .entry-content -->
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">新型hexo后台（hexon）</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2022-6-12&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <p>今天给大家介绍一个hexo文章管理后台~hexon</p>
+<iframe src="//player.bilibili.com/player.html?aid=718749061&amp;bvid=BV17Q4y1Q7xF&amp;cid=428170984&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+这是作者的原视频，这个后台界面很美观，比我原来用的hexo admin好一万倍！！！真的！
+
+<h1 id="接下来我们开始上正题–》"><a href="#接下来我们开始上正题–》" class="headerlink" title="接下来我们开始上正题–》"></a>接下来我们开始上正题–》</h1><h3 id="在安装前！"><a href="#在安装前！" class="headerlink" title="在安装前！"></a>在安装前！</h3><p>确保您的“git”、“hexo”和“Node.js”的工作流很好。Hexon仅为这些命令提供GUI，但<code>没有实现它们</code>。</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>cd 你的博客路径
+git clone https://github.com/gethexon/hexon
+npm install
+npm run setup
+</code></pre>
+<div class="note warning">这里提供几个别的api：</div>
+&gt; https://gitclone.com/github.com/gethexon/hexon.git
+&gt; https://ghproxy.futils.com/https://github.com/gethexon/hexon.git
+&gt; https://api.mtr.pub/gethexon/hexon.git
+&gt; https://hub.fastgit.xyz/gethexon/hexon.git
+&gt; https://mirror.ghproxy.com/https://github.com/gethexon/hexon.git
+&gt; https://ghproxy.com/https://github.com/gethexon/hexon.git
+&gt; https://hub.xn--gzu630h.xn--kpry57d/gethexon/hexon.git
+
+<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><pre><code>rm -rf hexon
+# just remove the folder you just cloned
+</code></pre>
+<h3 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h3><pre><code>npm start # for plain nodejs
+npm prd # for pm2
+</code></pre>
+<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul>
+<li><code>pnpm run setup</code>: 安装和配置</li>
+<li><code>pnpm start</code>: 使用节点启动hexon</li>
+<li><code>pnpm prd</code>: 使用pm2启动hexon</li>
+<li><code>pnpm resetpwd [new-password]</code>: 将密码重置为“[新密码]`</li>
+<li><code>pnpm script</code>: 管理自定义脚本</li>
+</ul>
+<h2 id="🖥️-发展"><a href="#🖥️-发展" class="headerlink" title="🖥️ 发展"></a>🖥️ 发展</h2><ul>
+<li>查看“开发”分支。</li>
+<li>运行“pnpm dev init”安装依赖项并配置hexon。</li>
+<li>运行’pnpm dev’，展示你的魔力！</li>
+</ul>
+<h2 id="❓-想知道更多吗？"><a href="#❓-想知道更多吗？" class="headerlink" title="❓ 想知道更多吗？"></a>❓ 想知道更多吗？</h2><p>开始<a target="_blank" rel="noopener" href="https://github.com/gethexon/hexon/discussions">讨论</a>或者通过QQ群590355610加入我们。</p>
+<h2 id="⏱️-正在查找旧版本？"><a href="#⏱️-正在查找旧版本？" class="headerlink" title="⏱️ 正在查找旧版本？"></a>⏱️ 正在查找旧版本？</h2><p>v0.6下的版本。x在[winwin hexo编辑器]上仍然可用(<a target="_blank" rel="noopener" href="https://github.com/YuJianghao/winwin-hexo-editor/">https://github.com/YuJianghao/winwin-hexo-editor/</a>)</p>
+<p>接下来贴几张运行截图：</p>
+<a target="_blank" rel="noopener" href="https://thumbnail1.baidupcs.com/thumbnail/3d0ce8a5br96f0b37ffa442fa75d9a88?fid=2214435914-250528-343230594640795&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-CMun4pGIWLfnZsQwoSCDiHUBZ5E%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307700422129306632&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1" data-fancybox="images" data-caption="1"><img src="https://thumbnail1.baidupcs.com/thumbnail/3d0ce8a5br96f0b37ffa442fa75d9a88?fid=2214435914-250528-343230594640795&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-CMun4pGIWLfnZsQwoSCDiHUBZ5E%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307700422129306632&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1"></a>
+
+<a target="_blank" rel="noopener" href="https://thumbnail1.baidupcs.com/thumbnail/e2f537309g83bce7d4c546f29ac48d6b?fid=2214435914-250528-429439252435355&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-BvaP6tBeKH5jJhtPdN93XiMj3v8%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307700422129306632&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1" data-fancybox="images" data-caption="2"><img src="https://thumbnail1.baidupcs.com/thumbnail/e2f537309g83bce7d4c546f29ac48d6b?fid=2214435914-250528-429439252435355&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-BvaP6tBeKH5jJhtPdN93XiMj3v8%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307700422129306632&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1"></a>
+
+<p>这是界面截图：</p>
+<a target="_blank" rel="noopener" href="https://thumbnail1.baidupcs.com/thumbnail/f623f2dcdi6ef48619c3cc04543b313d?fid=2214435914-250528-1036953272377192&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-mdGmnCX6FJNTJ218aN2ILOJxcuo%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1" data-fancybox="images" data-caption="编辑界面"><img src="https://thumbnail1.baidupcs.com/thumbnail/f623f2dcdi6ef48619c3cc04543b313d?fid=2214435914-250528-1036953272377192&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-mdGmnCX6FJNTJ218aN2ILOJxcuo%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1"></a>
+
+<a target="_blank" rel="noopener" href="https://thumbnail1.baidupcs.com/thumbnail/4bcf81403p2f66770568c35a2e93a25b?fid=2214435914-250528-778703328840162&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-BNeud2DqN2MnB6b5CHmdK5nb9EM%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1" data-fancybox="images" data-caption="主页面"><img src="https://thumbnail1.baidupcs.com/thumbnail/4bcf81403p2f66770568c35a2e93a25b?fid=2214435914-250528-778703328840162&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-BNeud2DqN2MnB6b5CHmdK5nb9EM%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1"></a>
+
+<a target="_blank" rel="noopener" href="https://thumbnail1.baidupcs.com/thumbnail/91fc9a3bbqa32498eee61797b91df8a8?fid=2214435914-250528-782960786797535&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Q7u8q%2blwftVz%2f2HOdSmw657Vlj4%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1" data-fancybox="images" data-caption="设置页面"><img src="https://thumbnail1.baidupcs.com/thumbnail/91fc9a3bbqa32498eee61797b91df8a8?fid=2214435914-250528-782960786797535&amp;rt=pr&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Q7u8q%2blwftVz%2f2HOdSmw657Vlj4%3d&amp;expires=8h&amp;chkbd=0&amp;chkv=0&amp;dp-logid=307741513578005611&amp;dp-callid=0&amp;time=1654995600&amp;size=c1440_u900&amp;quality=90&amp;vuk=2214435914&amp;ft=image&amp;autopolicy=1"></a><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="undefined"></li>
+                <li class="wechat-code"><img src="https://gitlab.com/KINGWDY/tgbb/-/raw/main/EBA5FF7A-2505-43A8-99F5-257745FAFAAA.webp"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/posts/23280.html" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://view.moezx.cc/images/2022/02/24/cd707b3200d3c41f72159b3b0ea9c381.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://view.moezx.cc/images/2022/02/24/cd707b3200d3c41f72159b3b0ea9c381.png">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                如何更换hexo的预览端口</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
 <div id="vcomments"></div>
 <script>
@@ -689,43 +799,28 @@
 
 
 
-      <div class="single-reward">
-        <div class="reward-open">赏
-          <div class="reward-main">
-            <ul class="reward-row">
-              <li class="alipay-code"><img src="undefined"></li>
-              <li class="wechat-code"><img src="https://gitlab.com/KINGWDY/tgbb/-/raw/main/EBA5FF7A-2505-43A8-99F5-257745FAFAAA.webp"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
-      <!-- #post-## -->
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://i.postimg.cc/xT7tgjWb/5-11.gif" itemprop="image" alt="ブログ" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://kwblog.netlify.app" itemprop="url" rel="author">ブログ</a>
+            <a href="" itemprop="url" rel="author"></a>
             </h3>
           </div>
         </div>
         <hr>
         <p><i class="iconfont icon-write"></i></p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
+
+
+<link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" media='all'/>
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>

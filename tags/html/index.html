@@ -189,7 +189,7 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 6.2.0">
+ </script><meta name="generator" content="Hexo 5.4.2">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="KINGWDYの博客" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
@@ -700,7 +700,7 @@
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -712,10 +712,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -1653,6 +1653,52 @@ $(document).ready(function() {
                       e = 0,
                       f = 0;
                   a(window).mousemove(function(g) {
+                      d = a(window).width();
+                      c = a(window).height();
+                      h = g.clientX;
+                      k = g.clientY;
+                      e = g.pageX;
+                      f = g.pageY;
+                      h + a(b).width() >= d && (e = e - a(b).width() - 5);
+                      k + a(b).height() >= c && (f = f - a(b).height() - 5);
+                      a("html").on({
+                          contextmenu: function(c) {
+                              3 == c.which && a(b).css({
+                                  left: e,
+                                  top: f
+                              }).show()
+                          },
+                          click: function() {
+                              a(b).hide()
+                          }
+                      })
+                  })
+              },
+              disabledContextMenu: function() {
+                  window.oncontextmenu = function() {
+                      return !1
+                  }
+              }
+          })
+      })(jQuery);
+   
+      function getSelect() {
+          "" == (window.getSelection ? window.getSelection() : document.selection.createRange().text) ? layer.msg("啊噢...你没还没选择文字呢！") : document.execCommand("Copy")
+      }
+      function baiduSearch() {
+          var a = window.getSelection ? window.getSelection() : document.selection.createRange().text;
+          "" == a ? layer.msg("啊噢...你没还没选择文字呢！") : window.open("https://www.baidu.com/s?wd=" +     a)
+      }
+      $(function() {
+          for (var a = navigator.userAgent, b = "Android;iPhone;SymbianOS;Windows Phone;iPad;iPod".split(";"), d = !0, c = 0; c < b.length; c++) if (0 < a.indexOf(b[c])) {
+              d = !1;
+              break
+          }
+          d && ($.mouseMoveShow(".usercm"), $.disabledContextMenu())
+      });
+      </script>
+</body>
+</html>                a(window).mousemove(function(g) {
                       d = a(window).width();
                       c = a(window).height();
                       h = g.clientX;
